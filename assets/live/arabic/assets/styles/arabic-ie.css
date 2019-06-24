@@ -1,0 +1,69 @@
+/*
+ARABIC LANGUAGE IE CSS
+VERSION: 1.0
+DATE: OCTOBER 2010
+AUTHOR: KAREN LAKE
+EMAIL: KAREN.LAKE@MONASH.EDU
+*/
+
+
+h1 {margin: .6em 0 0.1em 0;  
+	}
+li {
+	margin-bottom: 0.3em;
+	list-style-position:inside;
+	text-indent:-1.4em;
+	padding-right:.6em;
+	}
+.caption {
+	padding:10px 15px 12px 10px;
+	font-size:0.7em;
+	width:575px;
+	}
+.image {
+	margin:-120px 25px 0 7px;
+	}
+.quote-box {
+	padding:0.6em 0.7em 0.6em 1.5em;
+	width:565px;
+	margin:0 0 70px -57px;
+	}
+.start-quote {
+	margin:0 0 0 .5em;
+	display:inline;
+	position:relative;
+	vertical-align:bottom;
+	}
+.end-quote {
+	margin:0 .5em 0 -2.7em;
+	display:inline;
+	vertical-align:bottom;
+	}
+.quote-text {
+	position:relative;
+	right:2.2em;
+	color:#fff;
+	font-size: 1.3em;
+	line-height:1.8;
+	margin:0;
+	display:inline;
+	padding-left:2em;
+	text-align:right;
+}
+.text-column {
+	width:280px;
+	}
+.text-column-short {
+	top: 150px;
+	}
+.top-button {
+	margin:0 0 .6em .6em;
+	padding:.3em .5em .2em .5em;
+	float:left;
+	display:inline;
+	background-color:#666666;
+}
+#top-links {
+	font-size:1em;
+}
+

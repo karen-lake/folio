@@ -1,0 +1,63 @@
+/*
+ENGLISH LANGUAGE IE CSS
+VERSION: 1.0
+DATE: SEPTEMBER 2010
+AUTHOR: KAREN LAKE
+EMAIL: KAREN.LAKE@MONASH.EDU
+*/
+
+.caption {
+	padding:7px 3px 7px 10px;
+	font-size:0.7em;
+	line-height:1.6;
+	width:587px;
+	}
+.caption-portrait {
+	margin-top:-8px;
+	padding:10px 3px 14px 6px;
+	}
+h1 { 
+	margin: 0.7em 0 0 0;
+	}
+li {
+	margin-bottom: 0.3em;
+	list-style-position:inside;
+	text-indent:-1.4em;
+	padding-left:.6em;
+	}
+.image {
+	margin:-150px 25px 0 0;
+	}
+.image-melb {
+	margin:133px -37px 30px 0;
+	}
+#language {
+	margin:92px 13px 0 0;
+	z-index:1;
+}
+.quote-box {
+	padding:.6em 4.5em .6em .6em;
+	width:518px;
+	margin:0 -40px 70px 0;
+	}
+.quote-text {
+	font-size: 1.3em;
+	}
+.text-column {
+	margin: 120px 0 5px 0;
+	}
+.text-column-short {
+	top: 190px;
+	}
+.top-button {
+	margin:.2em .4em .7em .3em;
+	padding:.3em .5em .4em .5em;
+}
+#top-links {
+	margin: 0 0 0 -1.1em;
+	font-size:0.8em;
+	margin-bottom:-2.6em;
+}
+#footer {
+	width:950px;
+}

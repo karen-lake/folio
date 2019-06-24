@@ -1,0 +1,45 @@
+/*POSTGRADUATE EVENTS 2011 IE7 CSS STYLES*/
+
+
+.tagline-filler {
+	height: 60px;
+	margin-top:15px;
+	}
+#tagline-box-cell .triangle {
+    top: 112px;
+	}
+.tagline-box .larger {
+	font-weight: 600;
+	}
+#ribbon-container {
+    margin:-40px 0 0 -17px;
+	}
+.ribbon {
+	border-bottom: #666 1px solid;
+	margin: 0;
+	}
+#ribbon-container .triangle {
+	top: 26px;
+	margin-left: 18px;
+	}
+#terms-box {
+	height: 580px;
+	margin-top: 20px;
+	}
+#win-banner p {
+	font-weight: bold;
+	}
+#content-box-1 {
+	margin: 20px 0 10px 0;
+	width: 950px;
+	height: 1670px;
+	}
+#home {
+	margin: 20px 20px 0 0;
+	}
+.terms {
+	margin-top:20px;
+	}
+	
+
+

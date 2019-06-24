@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>South East Water Payment Form</title>
+
+<!-- Bootstrap links V3.3.6 -->
+
+<!-- Local bootstrap with modified breakpoints-->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+<!-- Local CSS styles -->
+<link rel="stylesheet" type="text/css" href="css/sew-form.css">
+
+
+
+
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    
+</head>
+
+<body class="myTop20-BodyBackground">
+
+<!--First row START --> 
+
+<div class="container myTop20-bgColor_Grey ">
+  <div class="row text myTop20-Margin10">
+    <img src="images/sew.png" class="sew-logo" alt="south east water logo">
+    </div>
+
+    
+          
+  <!--Row START --> 
+
+   <div class="row myTop20-Padding40">
+      
+  <div class="col-lg-5 col-md-7 col-sm-9 col-xs-12 col-lg-offset-3 col-md-offset-3 col-sm-offset-0 col-xs-offset-0">
+        <h1 class="myTop20-H1 myTop20-28px myTop20-Bold myTop20-Blue">Payment details</h1>
+                     
+     </div>
+    </div><!--Row END -->
+  
+  <!--FORM START --> 
+  
+
+ <form id="paymentDetails" name="paymentDetails" method="post">
+
+
+	<!--Row START --> 
+
+   <div class="row myTop20-Padding40">
+      <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+      <label for="textfield1" class="myTop20-label myTop20-16px">Account number</label>
+   </div>
+      
+  <div class="col-lg-5 col-md-7 col-sm-12 col-xs-12">
+     <input type="text" name="textfield1" id="textfield1" class="myTop20-Field" placeholder="">
+     <a class="btn btn-info acc-ccv-info collapsed" data-toggle="collapse" href="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1"><!--?--></a>
+   
+      <!--Collapse START-->
+            
+  <div class="collapse" id="collapseExample1">
+      <div class="card card-block"><p>Where's my account number?</p><img src="images/account-number-location.jpg" alt="account number location" /></div>
+   
+  <!--Collapse END--> 
+</div>   
+</div>
+</div><!--Row END -->
+            
+
+    
+<!--Row START --> 
+     
+     <div class="row myTop20-Padding40">
+       <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+         <label for="textfield2" class="myTop20-label myTop20-16px">Payment amount</label>
+       </div>
+       <div class="col-lg-5 col-md-7 col-sm-12 col-xs-12">
+         <input type="text" name="textfield2" id="textfield2" class="myTop20-Field myTop20-Field" placeholder="$0.00">
+       </div>
+   </div><!--Row END -->
+   
+     <!--Row START --> 
+   
+     <div class="row myTop20-Padding40">
+       <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+         <label for="textfield3" class="myTop20-label myTop20-16px">Name on card</label>
+       </div>
+       <div class="col-lg-5 col-md-7 col-sm-12 col-xs-12">
+         <input type="text" name="textfield3" id="textfield3" class="myTop20-Field myTop20-Field" placeholder="">
+       </div>
+     </div><!--Row END -->
+     
+     
+<!--Row START --> 
+     
+      <div class="row myTop20-Padding40">
+       <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+         <label for="textfield4" class="myTop20-label myTop20-16px">Credit card number</label>
+       </div>
+       <div class="col-lg-3 col-md-5 col-sm-9 col-xs-8">
+         <input type="text" name="textfield4" id="textfield4" class="myTop20-Field" placeholder="">
+         </div>
+         <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+         <img class="visa-logo" src="images/transparent-logo-visa-mastercard.gif" alt="visa and mastercard logos" width="100" height="20" align="right" />  
+         </div>                    
+     </div><!--Row END -->
+     
+<!--Row START --> 
+       
+    <div class="row myTop20-Padding40">
+      <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+      <label for="select1" class="myTop20-label myTop20-16px">Expiry date</label>
+      </div>
+      
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+            <select name="select1" id="select1" class="myTop20-Field myTop20-Field drop-down expiry">
+            	<option value="">Month</option>
+                <option value="">January</option>
+                <option value="">February</option>
+				<option value="">March</option>
+                <option value="">April</option>
+                <option value="">May</option>
+                <option value="">June</option>
+                <option value="">July</option>
+                <option value="">August</option>
+                <option value="">September</option>
+                <option value="">October</option>
+                <option value="">November</option>
+                <option value="">December</option>
+            </select>
+      </div>
+            
+         <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12">   
+            <select name="select2" id="select2" class="myTop20-Field myTop20-Field drop-down year">
+            	<option value="">Year</option>
+                <option value="">2016</option>
+                <option value="">2017</option>
+				<option value="">2018</option>
+                <option value="">2019</option>
+                <option value="">2020</option>
+            </select>
+      </div>
+           
+       
+       
+       	<div class="col-lg-1 col-md-2 col-sm-4 col-xs-12">
+         <input type="text" name="textfield5" id="textfield5" maxlength="3" class="myTop20-Field ccv-field" placeholder="CCV">
+     <a class="btn btn-info acc-ccv-info collapsed" data-toggle="collapse" href="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2"><!--?--></a>
+  
+  
+ <!--Collapse START-->
+   
+    <div class="collapse" id="collapseExample2"> 
+      <div class="card card-block"><p>Where's my CCV number?</p><img src="images/ccv-location.jpg" alt="ccv located to the right of signature field" /></div>
+      
+            <!--Collapse END-->
+</div>      
+</div>
+</div><!--Row END -->
+     
+       
+       
+<!--Row START --> 
+     
+      <div class="row myTop20-Padding40">
+       <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+         <label for="textfield6" class="myTop20-label myTop20-16px">Email</label>
+       </div>
+       <div class="col-lg-5 col-md-7 col-sm-9 col-xs-12">
+         <input type="text" name="textfield6" id="textfield6" class="myTop20-Field myTop20-Field" placeholder="">
+       </div>
+   </div><!--Row END -->
+      
+      
+      <!--Row START --> 
+     
+      <div class="row myTop20-Padding40">
+       <div class="col-lg-8 col-md-10 col-sm-12 col-xs-12">
+         <button type="button" class="btn btn-primary myTop20-Button next-s1">Next</button> 
+       </div>
+   </div><!--Row END -->
+   
+                
+    <br />
+   <br />
+  </form>
+  
+</div><!--Container END -->
+
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
+
+    
+
+
+</body>
+</html>

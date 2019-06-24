@@ -1,0 +1,26 @@
+<div class="main-top" >
+<div id="banner">
+<a href="http://www.monash.edu.au/">
+		<img src="../../assets/images/logo.gif" alt="Monash University logo" /></a>
+</div> <!-- end #banner -->
+</div> <!-- end .main-top -->
+
+<div class="main" >
+
+<div id="indent">
+
+<div id="top-links">
+       
+    	<a href="../../index.html" id="index"><div class="top-button">جامعة موناش</div></a>
+        <a href="../../global.html" id="global"><div class="top-button">الانتشار  العالمي والسمعة العالمية</div></a>
+        <a href="../../academic.html" id="academic"><div class="top-button">المعاييرالأكاديمية العليا</div></a>
+        <a href="../../success.html" id="success"><div class="top-button">النجاح  بعد موناش</div></a>
+        <a href="../../life.html" id="life"><div class="top-button">الحياة خارج الفصول الدراسية</div></a>
+        <a href="../../students.html" id="students"><div class="top-button">دعم طلابنا</div></a>
+        <a href="../../campuses.html" id="campuses"><div class="top-button">فروع جامعة موناش</div></a>
+        <a href="../../study.html" id="study"><div class="top-button">مكان عظيم للدراسة</div></a>
+        <a href="../../list.html" id="list"><div class="top-button">مجالات الدراسة</div></a>
+        <a href="../../contact.html" id="contact"><div class="top-button">اتصل بنا</div></a>
+       
+
+    </div><!--End top-links-->

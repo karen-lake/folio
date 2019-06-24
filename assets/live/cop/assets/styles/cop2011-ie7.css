@@ -1,0 +1,34 @@
+/*MONASH 2012 IE7 CSS STYLES
+
+Karen Lake
+October 2011
+
+*/
+
+#contact ul {
+	margin: 10px 5px 40px 50px;
+	}	
+#register-button,
+#home-button {
+	border-bottom:#777 solid 1px;
+	border-right:#777 solid 1px;
+	border-top:#ccc solid 1px;
+	border-left:#ccc solid 1px;
+	background-color: #bc0202;
+	}
+#register-button:hover,
+#home-button:hover {
+	border-bottom:#000 solid 1px;
+	border-right:#000 solid 1px;
+	border-top:#777 solid 1px;
+	border-left:#777 solid 1px;
+	background-color: #990000;
+	text-decoration:none;
+	}
+#expo .triangle,
+#why .triangle,
+#course-box .triangle,
+#info-box-left .triangle,
+#info-box-right .triangle {
+	margin-left: 20px;
+	}

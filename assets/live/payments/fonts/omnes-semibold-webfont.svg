@@ -1,0 +1,557 @@
+
+
+
+<!DOCTYPE html>
+<html LANG="en" CLASS="">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/object# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
+    <meta charset='utf-8'>
+    <meta HTTP-EQUIV="X-UA-Compatible" CONTENT="IE=edge">
+    <meta HTTP-EQUIV="Content-Language" CONTENT="en">
+    <meta name="viewport" CONTENT="width=1020">
+    
+    
+    <title>rubyconf_au_hub/omnes-semibold-webfont.svg at master · ninefold/rubyconf_au_hub · GitHub</title>
+    <link REL="search" TYPE="application/opensearchdescription+xml" HREF="/opensearch.xml" title="GitHub">
+    <link REL="fluid-icon" HREF="https://github.com/fluidicon.png" title="GitHub">
+    <link REL="apple-touch-icon" sizes="57x57" HREF="/apple-touch-icon-114.png">
+    <link REL="apple-touch-icon" sizes="114x114" HREF="/apple-touch-icon-114.png">
+    <link REL="apple-touch-icon" sizes="72x72" HREF="/apple-touch-icon-144.png">
+    <link REL="apple-touch-icon" sizes="144x144" HREF="/apple-touch-icon-144.png">
+    <meta property="fb:app_id" CONTENT="1401488693436528">
+
+      <meta CONTENT="@github" name="twitter:site" /><meta CONTENT="summary" name="twitter:card" /><meta CONTENT="ninefold/rubyconf_au_hub" name="twitter:title" /><meta CONTENT="Contribute to rubyconf_au_hub development by creating an account on GitHub." name="twitter:description" /><meta CONTENT="https://avatars0.githubusercontent.com/u/578675?v=3&amp;s=400" name="twitter:image:src" />
+      <meta CONTENT="GitHub" property="og:site_name" /><meta CONTENT="object" property="og:type" /><meta CONTENT="https://avatars0.githubusercontent.com/u/578675?v=3&amp;s=400" property="og:image" /><meta CONTENT="ninefold/rubyconf_au_hub" property="og:title" /><meta CONTENT="https://github.com/ninefold/rubyconf_au_hub" property="og:url" /><meta CONTENT="Contribute to rubyconf_au_hub development by creating an account on GitHub." property="og:description" />
+      <meta name="browser-stats-url" CONTENT="https://api.github.com/_private/browser/stats">
+    <meta name="browser-errors-url" CONTENT="https://api.github.com/_private/browser/errors">
+    <link REL="assets" HREF="https://assets-cdn.github.com/">
+    
+    <meta name="pjax-timeout" CONTENT="1000">
+    
+
+    <meta name="msapplication-TileImage" CONTENT="/windows-tile.png">
+    <meta name="msapplication-TileColor" CONTENT="#ffffff">
+    <meta name="selected-link" VALUE="repo_source" data-pjax-transient>
+
+        <meta name="google-analytics" CONTENT="UA-3769691-2">
+
+    <meta CONTENT="collector.githubapp.com" name="octolytics-host" /><meta CONTENT="collector-cdn.github.com" name="octolytics-script-host" /><meta CONTENT="github" name="octolytics-app-id" /><meta CONTENT="CB273FDD:6D95:D164BEA:55C15258" name="octolytics-dimension-request_id" />
+    
+    <meta CONTENT="Rails, view, blob#show" data-pjax-transient="true" name="analytics-event" />
+    <meta CLASS="js-ga-set" name="dimension1" CONTENT="Logged Out">
+      <meta CLASS="js-ga-set" name="dimension4" CONTENT="Current repo nav">
+    <meta name="is-dotcom" CONTENT="true">
+        <meta name="hostname" CONTENT="github.com">
+    <meta name="user-login" CONTENT="">
+
+      <link REL="icon" sizes="any" mask HREF="https://assets-cdn.github.com/pinned-octocat.svg">
+      <meta name="theme-color" CONTENT="#4078c0">
+      <link REL="icon" TYPE="image/x-icon" HREF="https://assets-cdn.github.com/favicon.ico">
+
+    <!-- </textarea> --><!-- '"` --><meta CONTENT="authenticity_token" name="csrf-param" />
+<meta CONTENT="9AAQrQPViyBJ7/75ox/jqHmMlGbzHu1cTDGj3QImJJvT4SsHCfR0mzP/pne72SwVolXyroOBY2r0+aVM8qJ4Tw==" name="csrf-token" />
+    
+
+    <link crossorigin="anonymous" HREF="https://assets-cdn.github.com/assets/github/index-a6099c44cba81e3cc01a25d5aad205f2dd86c56ad656d0ee72761a3db28828c5.css" MEDIA="all" REL="stylesheet" />
+    <link crossorigin="anonymous" HREF="https://assets-cdn.github.com/assets/github2/index-e7262cad01eef2691501230e7d70c976a8e97c8a96842f0f29a1f20f658a315d.css" MEDIA="all" REL="stylesheet" />
+    
+    
+
+
+    <meta HTTP-EQUIV="x-pjax-version" CONTENT="7b3fb0c762b1609124fa6ce9de586ac0">
+
+      
+  <meta name="description" CONTENT="Contribute to rubyconf_au_hub development by creating an account on GitHub.">
+  <meta name="go-import" CONTENT="github.com/ninefold/rubyconf_au_hub git https://github.com/ninefold/rubyconf_au_hub.git">
+
+  <meta CONTENT="578675" name="octolytics-dimension-user_id" /><meta CONTENT="ninefold" name="octolytics-dimension-user_login" /><meta CONTENT="16360461" name="octolytics-dimension-repository_id" /><meta CONTENT="ninefold/rubyconf_au_hub" name="octolytics-dimension-repository_nwo" /><meta CONTENT="true" name="octolytics-dimension-repository_public" /><meta CONTENT="false" name="octolytics-dimension-repository_is_fork" /><meta CONTENT="16360461" name="octolytics-dimension-repository_network_root_id" /><meta CONTENT="ninefold/rubyconf_au_hub" name="octolytics-dimension-repository_network_root_nwo" />
+  <link HREF="https://github.com/ninefold/rubyconf_au_hub/commits/master.atom" REL="alternate" title="Recent Commits to rubyconf_au_hub:master" TYPE="application/atom+xml">
+
+  </head>
+
+
+  <body CLASS="logged_out  env-production windows vis-public page-blob">
+    <a HREF="#start-of-content" TABINDEX="1" CLASS="accessibility-aid js-skip-to-content">Skip to content</a>
+    <div CLASS="wrapper">
+      
+      
+      
+
+
+
+        
+        <div CLASS="header header-logged-out" ROLE="banner">
+  <div CLASS="container clearfix">
+
+    <a CLASS="header-logo-wordmark" HREF="https://github.com/" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+      <span CLASS="mega-octicon octicon-logo-github"></span>
+    </a>
+
+    <div CLASS="header-actions" ROLE="navigation">
+        <a CLASS="btn btn-primary" HREF="/join" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+      <a CLASS="btn" HREF="/login?return_to=%2Fninefold%2Frubyconf_au_hub%2Fblob%2Fmaster%2Fsource%2Ffonts%2Fomnes-semibold-webfont.svg" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+    </div>
+
+    <div CLASS="site-search repo-scope js-site-search" ROLE="search">
+      <!-- </textarea> --><!-- '"` --><form ACCEPT-CHARSET="UTF-8" ACTION="/ninefold/rubyconf_au_hub/search" CLASS="js-site-search-form" data-global-search-url="/search" data-repo-search-url="/ninefold/rubyconf_au_hub/search" METHOD="get"><div STYLE="margin:0;padding:0;display:inline"><input name="utf8" TYPE="hidden" VALUE="&#x2713;" /></div>
+  <label class="js-chromeless-input-container form-control">
+    <div CLASS="scope-badge">This repository</div>
+    <input TYPE="text"
+      class="js-site-search-focus js-site-search-field is-clearable chromeless-input"
+      data-hotkey="s"
+      name="q"
+      placeholder="Search"
+      aria-label="Search this repository"
+      data-global-scope-placeholder="Search GitHub"
+      data-repo-scope-placeholder="Search"
+      tabindex="1"
+      autocapitalize="off">
+  </label>
+</form>
+    </div>
+
+      <ul CLASS="header-nav left" ROLE="navigation">
+          <li CLASS="header-nav-item">
+            <a CLASS="header-nav-link" HREF="/explore" data-ga-click="(Logged out) Header, go to explore, text:explore">Explore</a>
+          </li>
+          <li CLASS="header-nav-item">
+            <a CLASS="header-nav-link" HREF="/features" data-ga-click="(Logged out) Header, go to features, text:features">Features</a>
+          </li>
+          <li CLASS="header-nav-item">
+            <a CLASS="header-nav-link" HREF="https://enterprise.github.com/" data-ga-click="(Logged out) Header, go to enterprise, text:enterprise">Enterprise</a>
+          </li>
+          <li CLASS="header-nav-item">
+            <a CLASS="header-nav-link" HREF="/blog" data-ga-click="(Logged out) Header, go to blog, text:blog">Blog</a>
+          </li>
+      </ul>
+
+  </div>
+</div>
+
+
+
+      <div id="start-of-content" CLASS="accessibility-aid"></div>
+          <div CLASS="site" itemscope itemtype="http://schema.org/WebPage">
+    <div id="js-flash-container">
+      
+    </div>
+    <div CLASS="pagehead repohead instapaper_ignore readability-menu ">
+      <div CLASS="container">
+
+        <div CLASS="clearfix">
+          
+<ul CLASS="pagehead-actions">
+
+  <li>
+      <a HREF="/login?return_to=%2Fninefold%2Frubyconf_au_hub"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to watch a repository" REL="nofollow">
+    <span CLASS="octicon octicon-eye"></span>
+    Watch
+  </a>
+  <a CLASS="social-count" HREF="/ninefold/rubyconf_au_hub/watchers">
+    11
+  </a>
+
+  </li>
+
+  <li>
+      <a HREF="/login?return_to=%2Fninefold%2Frubyconf_au_hub"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" REL="nofollow">
+    <span CLASS="octicon octicon-star"></span>
+    Star
+  </a>
+
+    <a CLASS="social-count js-social-count" HREF="/ninefold/rubyconf_au_hub/stargazers">
+      1
+    </a>
+
+  </li>
+
+    <li>
+      <a HREF="/login?return_to=%2Fninefold%2Frubyconf_au_hub"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" REL="nofollow">
+        <span CLASS="octicon octicon-repo-forked"></span>
+        Fork
+      </a>
+      <a HREF="/ninefold/rubyconf_au_hub/network" CLASS="social-count">
+        4
+      </a>
+    </li>
+</ul>
+
+          <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" CLASS="entry-title public ">
+            <span CLASS="mega-octicon octicon-repo"></span>
+            <span CLASS="author"><a HREF="/ninefold" CLASS="url fn" itemprop="url" REL="author"><span itemprop="title">ninefold</span></a></span><!--
+         --><span CLASS="path-divider">/</span><!--
+         --><strong><a HREF="/ninefold/rubyconf_au_hub" data-pjax="#js-repo-pjax-container">rubyconf_au_hub</a></strong>
+
+            <span CLASS="page-context-loader">
+              <img ALT="" HEIGHT="16" SRC="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" WIDTH="16" />
+            </span>
+
+          </h1>
+        </div>
+
+      </div>
+    </div>
+
+      <div CLASS="container">
+        <div CLASS="repository-with-sidebar repo-container new-discussion-timeline ">
+          <div CLASS="repository-sidebar clearfix">
+              
+
+<nav CLASS="sunken-menu repo-nav js-repo-nav js-sidenav-container-pjax js-octicon-loaders"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container"
+     data-issue-count-url="/ninefold/rubyconf_au_hub/issues/counts">
+  <ul CLASS="sunken-menu-group">
+    <li CLASS="tooltipped tooltipped-w" aria-label="Code">
+      <a HREF="/ninefold/rubyconf_au_hub" aria-label="Code" aria-selected="true" CLASS="js-selected-navigation-item selected sunken-menu-item" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches /ninefold/rubyconf_au_hub">
+        <span CLASS="octicon octicon-code"></span> <span CLASS="full-word">Code</span>
+        <img ALT="" CLASS="mini-loader" HEIGHT="16" SRC="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" WIDTH="16" />
+</a>    </li>
+
+      <li CLASS="tooltipped tooltipped-w" aria-label="Issues">
+        <a HREF="/ninefold/rubyconf_au_hub/issues" aria-label="Issues" CLASS="js-selected-navigation-item sunken-menu-item" data-hotkey="g i" data-selected-links="repo_issues repo_labels repo_milestones /ninefold/rubyconf_au_hub/issues">
+          <span CLASS="octicon octicon-issue-opened"></span> <span CLASS="full-word">Issues</span>
+          <span CLASS="js-issue-replace-counter"></span>
+          <img ALT="" CLASS="mini-loader" HEIGHT="16" SRC="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" WIDTH="16" />
+</a>      </li>
+
+    <li CLASS="tooltipped tooltipped-w" aria-label="Pull requests">
+      <a HREF="/ninefold/rubyconf_au_hub/pulls" aria-label="Pull requests" CLASS="js-selected-navigation-item sunken-menu-item" data-hotkey="g p" data-selected-links="repo_pulls /ninefold/rubyconf_au_hub/pulls">
+          <span CLASS="octicon octicon-git-pull-request"></span> <span CLASS="full-word">Pull requests</span>
+          <span CLASS="js-pull-replace-counter"></span>
+          <img ALT="" CLASS="mini-loader" HEIGHT="16" SRC="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" WIDTH="16" />
+</a>    </li>
+
+  </ul>
+  <div CLASS="sunken-menu-separator"></div>
+  <ul CLASS="sunken-menu-group">
+
+    <li CLASS="tooltipped tooltipped-w" aria-label="Pulse">
+      <a HREF="/ninefold/rubyconf_au_hub/pulse" aria-label="Pulse" CLASS="js-selected-navigation-item sunken-menu-item" data-selected-links="pulse /ninefold/rubyconf_au_hub/pulse">
+        <span CLASS="octicon octicon-pulse"></span> <span CLASS="full-word">Pulse</span>
+        <img ALT="" CLASS="mini-loader" HEIGHT="16" SRC="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" WIDTH="16" />
+</a>    </li>
+
+    <li CLASS="tooltipped tooltipped-w" aria-label="Graphs">
+      <a HREF="/ninefold/rubyconf_au_hub/graphs" aria-label="Graphs" CLASS="js-selected-navigation-item sunken-menu-item" data-selected-links="repo_graphs repo_contributors /ninefold/rubyconf_au_hub/graphs">
+        <span CLASS="octicon octicon-graph"></span> <span CLASS="full-word">Graphs</span>
+        <img ALT="" CLASS="mini-loader" HEIGHT="16" SRC="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" WIDTH="16" />
+</a>    </li>
+  </ul>
+
+
+</nav>
+
+                <div CLASS="only-with-full-nav">
+                    
+<div CLASS="js-clone-url clone-url open"
+  data-protocol-type="http">
+  <h3><span CLASS="text-emphasized">HTTPS</span> clone URL</h3>
+  <div CLASS="input-group js-zeroclipboard-container">
+    <input TYPE="text" CLASS="input-mini input-monospace js-url-field js-zeroclipboard-target"
+           value="https://github.com/ninefold/rubyconf_au_hub.git" READONLY="readonly" aria-label="HTTPS clone URL">
+    <span CLASS="input-group-button">
+      <button aria-label="Copy to clipboard" CLASS="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" TYPE="button"><span CLASS="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+  
+<div CLASS="js-clone-url clone-url "
+  data-protocol-type="subversion">
+  <h3><span CLASS="text-emphasized">Subversion</span> checkout URL</h3>
+  <div CLASS="input-group js-zeroclipboard-container">
+    <input TYPE="text" CLASS="input-mini input-monospace js-url-field js-zeroclipboard-target"
+           value="https://github.com/ninefold/rubyconf_au_hub" READONLY="readonly" aria-label="Subversion checkout URL">
+    <span CLASS="input-group-button">
+      <button aria-label="Copy to clipboard" CLASS="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" TYPE="button"><span CLASS="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+
+
+  <div CLASS="clone-options">You can clone with
+    <!-- </textarea> --><!-- '"` --><form ACCEPT-CHARSET="UTF-8" ACTION="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone" CLASS="inline-form js-clone-selector-form " data-form-nonce="11d7bf4414f53aa5e8b5bdb4721ad22baa9c160b" data-remote="true" METHOD="post"><div STYLE="margin:0;padding:0;display:inline"><input name="utf8" TYPE="hidden" VALUE="&#x2713;" /><input name="authenticity_token" TYPE="hidden" VALUE="mA5igTghBx9SR4tocq04mqGpq0X0ITHGs3IHusnpfbA/t9C06ybnyNKla1oksO8Cu5R4h4dyJsTFvtxZXVaAPg==" /></div><button CLASS="btn-link js-clone-selector" data-protocol="http" TYPE="submit">HTTPS</button></form> or <!-- </textarea> --><!-- '"` --><form ACCEPT-CHARSET="UTF-8" ACTION="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone" CLASS="inline-form js-clone-selector-form " data-form-nonce="11d7bf4414f53aa5e8b5bdb4721ad22baa9c160b" data-remote="true" METHOD="post"><div STYLE="margin:0;padding:0;display:inline"><input name="utf8" TYPE="hidden" VALUE="&#x2713;" /><input name="authenticity_token" TYPE="hidden" VALUE="CIrB/vVfoCXxUmhk3fOELdS/Pl4LJde5NvX92K/rJXLIwU1Bv9AmKklG1Dz8gBcaxNPj951+bqGdaNwpQ5fYug==" /></div><button CLASS="btn-link js-clone-selector" data-protocol="subversion" TYPE="submit">Subversion</button></form>.
+    <a HREF="https://help.github.com/articles/which-remote-url-should-i-use" CLASS="help tooltipped tooltipped-n" aria-label="Get help on which URL is right for you.">
+      <span CLASS="octicon octicon-question"></span>
+    </a>
+  </div>
+    <a HREF="https://windows.github.com" CLASS="btn btn-sm sidebar-button" title="Save ninefold/rubyconf_au_hub to your computer and use it in GitHub Desktop." aria-label="Save ninefold/rubyconf_au_hub to your computer and use it in GitHub Desktop.">
+      <span CLASS="octicon octicon-device-desktop"></span>
+      Clone in Desktop
+    </a>
+
+                  <a HREF="/ninefold/rubyconf_au_hub/archive/master.zip"
+                     class="btn btn-sm sidebar-button"
+                     aria-label="Download the contents of ninefold/rubyconf_au_hub as a zip file"
+                     title="Download the contents of ninefold/rubyconf_au_hub as a zip file"
+                     rel="nofollow">
+                    <span CLASS="octicon octicon-cloud-download"></span>
+                    Download ZIP
+                  </a>
+                </div>
+          </div>
+          <div id="js-repo-pjax-container" CLASS="repository-content context-loader-container" data-pjax-container>
+
+            
+
+<a HREF="/ninefold/rubyconf_au_hub/blob/b9d0d4dd01fcedc08cfe71299a5bbcf6840f9802/source/fonts/omnes-semibold-webfont.svg" CLASS="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
+
+<!-- blob contrib key: blob_contributors:v21:7f6732d8bd1d9274b133af35c4b0d5f4 -->
+
+  <div CLASS="file-navigation js-zeroclipboard-container">
+    
+<div CLASS="select-menu js-menu-container js-select-menu left">
+  <span CLASS="btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    data-ref="master"
+    title="master"
+    role="button" aria-label="Switch branches or tags" TABINDEX="0" aria-haspopup="true">
+    <i>Branch:</i>
+    <span CLASS="js-select-button css-truncate-target">master</span>
+  </span>
+
+  <div CLASS="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax aria-hidden="true">
+
+    <div CLASS="select-menu-modal">
+      <div CLASS="select-menu-header">
+        <span CLASS="select-menu-title">Switch branches/tags</span>
+        <span CLASS="octicon octicon-x js-menu-close" ROLE="button" aria-label="Close"></span>
+      </div>
+
+      <div CLASS="select-menu-filters">
+        <div CLASS="select-menu-text-filter">
+          <input TYPE="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" CLASS="js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div CLASS="select-menu-tabs">
+          <ul>
+            <li CLASS="select-menu-tab">
+              <a HREF="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" CLASS="js-select-menu-tab" ROLE="tab">Branches</a>
+            </li>
+            <li CLASS="select-menu-tab">
+              <a HREF="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" CLASS="js-select-menu-tab" ROLE="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div CLASS="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" ROLE="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a CLASS="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/ninefold/rubyconf_au_hub/blob/master/source/fonts/omnes-semibold-webfont.svg"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span CLASS="select-menu-item-icon octicon octicon-check"></span>
+              <span CLASS="select-menu-item-text css-truncate-target" title="master">
+                master
+              </span>
+            </a>
+            <a CLASS="select-menu-item js-navigation-item js-navigation-open "
+               href="/ninefold/rubyconf_au_hub/blob/plugin/source/fonts/omnes-semibold-webfont.svg"
+               data-name="plugin"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span CLASS="select-menu-item-icon octicon octicon-check"></span>
+              <span CLASS="select-menu-item-text css-truncate-target" title="plugin">
+                plugin
+              </span>
+            </a>
+        </div>
+
+          <div CLASS="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div CLASS="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+        </div>
+
+        <div CLASS="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+    <div CLASS="btn-group right">
+      <a HREF="/ninefold/rubyconf_au_hub/find/master"
+            class="js-show-file-finder btn btn-sm empty-icon tooltipped tooltipped-nw"
+            data-pjax
+            data-hotkey="t"
+            aria-label="Quickly jump between files">
+        <span CLASS="octicon octicon-list-unordered"></span>
+      </a>
+      <button aria-label="Copy file path to clipboard" CLASS="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" TYPE="button"><span CLASS="octicon octicon-clippy"></span></button>
+    </div>
+
+    <div CLASS="breadcrumb js-zeroclipboard-target">
+      <span CLASS="repo-root js-repo-root"><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a HREF="/ninefold/rubyconf_au_hub" CLASS="" data-branch="master" data-pjax="true" itemscope="url"><span itemprop="title">rubyconf_au_hub</span></a></span></span><span CLASS="separator">/</span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a HREF="/ninefold/rubyconf_au_hub/tree/master/source" CLASS="" data-branch="master" data-pjax="true" itemscope="url"><span itemprop="title">source</span></a></span><span CLASS="separator">/</span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a HREF="/ninefold/rubyconf_au_hub/tree/master/source/fonts" CLASS="" data-branch="master" data-pjax="true" itemscope="url"><span itemprop="title">fonts</span></a></span><span CLASS="separator">/</span><strong CLASS="final-path">omnes-semibold-webfont.svg</strong>
+    </div>
+  </div>
+
+<include-fragment class="commit commit-loader file-history-tease" src="/ninefold/rubyconf_au_hub/contributors/master/source/fonts/omnes-semibold-webfont.svg">
+  <div CLASS="file-history-tease-header">
+    Fetching contributors&hellip;
+  </div>
+
+  <div CLASS="participation">
+    <p CLASS="loader-loading"><img ALT="" HEIGHT="16" SRC="https://assets-cdn.github.com/images/spinners/octocat-spinner-32-EAF2F5.gif" WIDTH="16" /></p>
+    <p CLASS="loader-error">Cannot retrieve contributors at this time</p>
+  </div>
+</include-fragment>
+<div CLASS="file">
+  <div CLASS="file-header">
+    <div CLASS="file-actions">
+        <div CLASS="btn-group">
+          <a CLASS="btn btn-sm tooltipped tooltipped tooltipped-n source" HREF="/ninefold/rubyconf_au_hub/blob/master/source/fonts/omnes-semibold-webfont.svg?short_path=d08b83f" aria-label="Display the source blob">
+            <span CLASS="octicon octicon-code"></span>
+          </a>
+          <a CLASS="btn btn-sm tooltipped tooltipped-n rendered selected" HREF="" aria-label="Display the rendered blob">
+            <span CLASS="octicon octicon-file-text"></span>
+          </a>
+        </div>
+
+      <div CLASS="btn-group">
+        <a HREF="/ninefold/rubyconf_au_hub/raw/master/source/fonts/omnes-semibold-webfont.svg" CLASS="btn btn-sm " id="raw-url">Raw</a>
+          <a HREF="/ninefold/rubyconf_au_hub/blame/master/source/fonts/omnes-semibold-webfont.svg" CLASS="btn btn-sm js-update-url-with-hash">Blame</a>
+        <a HREF="/ninefold/rubyconf_au_hub/commits/master/source/fonts/omnes-semibold-webfont.svg" CLASS="btn btn-sm " REL="nofollow">History</a>
+      </div>
+
+        <a CLASS="octicon-btn tooltipped tooltipped-nw"
+           href="https://windows.github.com"
+           aria-label="Open this file in GitHub for Windows"
+           data-ga-click="Repository, open with desktop, type:windows">
+            <span CLASS="octicon octicon-device-desktop"></span>
+        </a>
+
+          <button TYPE="button" CLASS="octicon-btn disabled tooltipped tooltipped-n" aria-label="You must be signed in to make or propose changes">
+            <span CLASS="octicon octicon-pencil"></span>
+          </button>
+
+        <button TYPE="button" CLASS="octicon-btn octicon-btn-danger disabled tooltipped tooltipped-n" aria-label="You must be signed in to make or propose changes">
+          <span CLASS="octicon octicon-trashcan"></span>
+        </button>
+    </div>
+
+    <div CLASS="file-info">
+        <span CLASS="file-mode" title="File mode">executable file</span>
+        <span CLASS="file-info-divider"></span>
+        242 lines (242 sloc)
+        <span CLASS="file-info-divider"></span>
+      76.945 kB
+    </div>
+  </div>
+  
+
+  <div CLASS="blob-wrapper data type-svg">
+      
+  <div CLASS="render-wrapper">
+    <div CLASS="render-container is-render-pending js-render-target "
+      data-identity="db808ee1-1e9e-4df8-aecb-4e23d22499fa"
+      data-host="https://render.githubusercontent.com"
+      data-type="svg">
+      <img ALT="" CLASS="octospinner" HEIGHT="64" SRC="https://assets-cdn.github.com/images/spinners/octocat-spinner-128.gif" WIDTH="64" />
+      <div CLASS="render-viewer-error">Sorry, something went wrong. <a HREF="https://github.com/ninefold/rubyconf_au_hub/blob/master/source/fonts/omnes-semibold-webfont.svg">Reload?</a></div>
+      <div CLASS="render-viewer-fatal">Sorry, we cannot display this file.</div>
+      <div CLASS="render-viewer-invalid">Sorry, this file is invalid so it cannot be displayed.</div>
+      <iframe CLASS="render-viewer" SRC="https://render.githubusercontent.com/view/svg?commit=b9d0d4dd01fcedc08cfe71299a5bbcf6840f9802&amp;nwo=ninefold%2Frubyconf_au_hub&amp;path=source%2Ffonts%2Fomnes-semibold-webfont.svg&amp;url=https%3A%2F%2Fraw.githubusercontent.com%2Fninefold%2Frubyconf_au_hub%2Fb9d0d4dd01fcedc08cfe71299a5bbcf6840f9802%2Fsource%2Ffonts%2Fomnes-semibold-webfont.svg#db808ee1-1e9e-4df8-aecb-4e23d22499fa" sandbox="allow-scripts allow-same-origin allow-top-navigation">Viewer requires iframe.</iframe>
+    </div>
+  </div>
+
+  </div>
+
+</div>
+
+<a HREF="#jump-to-line" REL="facebox[.linejump]" data-hotkey="l" STYLE="display:none">Jump to Line</a>
+<div id="jump-to-line" STYLE="display:none">
+  <!-- </textarea> --><!-- '"` --><form ACCEPT-CHARSET="UTF-8" ACTION="" CLASS="js-jump-to-line-form" METHOD="get"><div STYLE="margin:0;padding:0;display:inline"><input name="utf8" TYPE="hidden" VALUE="&#x2713;" /></div>
+    <input CLASS="linejump-input js-jump-to-line-field" TYPE="text" placeholder="Jump to line&hellip;" aria-label="Jump to line" autofocus>
+    <button TYPE="submit" CLASS="btn">Go</button>
+</form></div>
+
+          </div>
+        </div>
+        <div CLASS="modal-backdrop"></div>
+      </div>
+  </div>
+
+
+    </div><!-- /.wrapper -->
+
+      <div CLASS="container">
+  <div CLASS="site-footer" ROLE="contentinfo">
+    <ul CLASS="site-footer-links right">
+        <li><a HREF="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+      <li><a HREF="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li><a HREF="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li><a HREF="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li><a HREF="https://github.com/blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a HREF="https://github.com/about" data-ga-click="Footer, go to about, text:about">About</a></li>
+        <li><a HREF="https://help.github.com" data-ga-click="Footer, go to help, text:help">Help</a></li>
+
+    </ul>
+
+    <a HREF="https://github.com" aria-label="Homepage">
+      <span CLASS="mega-octicon octicon-mark-github" title="GitHub"></span>
+</a>
+    <ul CLASS="site-footer-links">
+      <li>&copy; 2015 <span title="0.04436s from github-fe131-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+        <li><a HREF="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
+        <li><a HREF="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
+        <li><a HREF="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li><a HREF="https://github.com/contact" data-ga-click="Footer, go to contact, text:contact">Contact</a></li>
+    </ul>
+  </div>
+</div>
+
+
+    <div CLASS="fullscreen-overlay js-fullscreen-overlay" id="fullscreen_overlay">
+  <div CLASS="fullscreen-container js-suggester-container">
+    <div CLASS="textarea-wrap">
+      <textarea name="fullscreen-contents" id="fullscreen-contents" CLASS="fullscreen-contents js-fullscreen-contents" placeholder="" aria-label=""></textarea>
+      <div CLASS="suggester-container">
+        <div CLASS="suggester fullscreen-suggester js-suggester js-navigation-container"></div>
+      </div>
+    </div>
+  </div>
+  <div CLASS="fullscreen-sidebar">
+    <a HREF="#" CLASS="exit-fullscreen js-exit-fullscreen tooltipped tooltipped-w" aria-label="Exit Zen Mode">
+      <span CLASS="mega-octicon octicon-screen-normal"></span>
+    </a>
+    <a HREF="#" CLASS="theme-switcher js-theme-switcher tooltipped tooltipped-w"
+      aria-label="Switch themes">
+      <span CLASS="octicon octicon-color-mode"></span>
+    </a>
+  </div>
+</div>
+
+
+
+    
+    
+    
+
+    <div id="ajax-error-message" CLASS="flash flash-error">
+      <span CLASS="octicon octicon-alert"></span>
+      <a HREF="#" CLASS="octicon octicon-x flash-close js-ajax-error-dismiss" aria-label="Dismiss error"></a>
+      Something went wrong with that request. Please try again.
+    </div>
+
+
+      <script crossorigin="anonymous" SRC="https://assets-cdn.github.com/assets/frameworks-60fa9d481f93b9638a55282fc13cd1e893f5da608855190c2259c5b35883105c.js"></script>
+      <script async="async" crossorigin="anonymous" SRC="https://assets-cdn.github.com/assets/github/index-4864e54542a25a0f1dc884a414b7fee9b624d1717ce4a61500d1e23907a794ac.js"></script>
+      
+      
+  </body>
+</html>
+

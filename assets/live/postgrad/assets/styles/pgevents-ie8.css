@@ -1,0 +1,27 @@
+/*POSTGRADUATE EVENTS 2011 IE8 CSS STYLES*/
+
+
+.tagline-filler {
+	height: 60px;
+	margin-top:15px;
+	}
+#tagline-box-cell .triangle {
+    top: 112px;
+	}
+.tagline-box .larger {
+	font-weight: 600;
+	}
+.ribbon {
+	border-bottom: #666 1px solid;
+	margin:19px 0 0 -17px;
+	}
+#terms-box {
+	height: 580px;
+	margin-top: 20px;
+	}
+#win-banner p {
+	font-weight: bold;
+	}
+#content-box-1 {
+	margin: 20px 0 10px 0;
+	}

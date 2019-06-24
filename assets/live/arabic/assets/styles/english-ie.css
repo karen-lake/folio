@@ -1,0 +1,46 @@
+/*
+ENGLISH LANGUAGE IE CSS
+VERSION: 1.0
+DATE: SEPTEMBER 2010
+AUTHOR: KAREN LAKE
+EMAIL: KAREN.LAKE@MONASH.EDU
+*/
+
+
+.caption {
+	padding:10px 3px 12px 10px;
+	font-size:0.7em;
+	width:587px;
+	}
+li {
+	margin-bottom: 0.3em;
+	list-style-position:inside;
+	text-indent:-1.4em;
+	padding-left:.3em;
+	}
+.image {
+	margin:-150px 25px 0 0;
+	}
+.quote-box {
+	padding:.6em 4.5em .6em .6em;
+	width:518px;
+	margin:0 -40px 70px 0;
+	}
+.quote-text {
+	font-size: 1.3em;
+	}
+.text-column-short {
+	top: 190px;
+	padding-bottom:200px;
+	}
+.top-button {
+	margin:0 0 .6em .6em;
+	padding:.3em .5em .2em .5em;
+	float:left;
+	display:inline;
+	background-color:#666666;
+}
+#top-links {
+	font-size:0.8em;
+}
+

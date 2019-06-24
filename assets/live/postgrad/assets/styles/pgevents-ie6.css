@@ -1,0 +1,64 @@
+
+/*POSTGRADUATE EVENTS 2011 IE6 CSS STYLES*/
+
+
+#address-box-expo {
+	width: 32em;
+	float: left;
+	margin: 4em 0 0 -76em;
+	}
+#content-box-1 {
+	margin-top: -2em;
+	border: 1px solid #CCC;
+	width: 95em;
+	}
+#content-box-2 {
+	border: 1px solid #CCC;
+	width: 95em;
+	}
+#content-box-3 {
+	border: 1px solid #CCC;
+	width: 95em;
+	}
+#content-box-1 h2 {
+	margin: 2em 0 0 0;
+	}
+#map {
+	margin: 0.8em 0 0 50em;
+	}
+.ribbon {
+	border-bottom: #555 1px solid;
+	}
+#ribbon-container-clayton,
+#ribbon-container-caulfield {
+	top: 2em;
+	}
+#ribbon-container-clayton .triangle,
+#ribbon-container-caulfield .triangle {
+    top: 2.6em;
+	}
+#ribbon-container-expo {
+   margin:-3.5em 0 0 0;
+	}
+#ribbon-container-expo .triangle {
+	left: -3em;
+    top: 2.6em;
+	}
+#tagline-box-cell {
+	height: 20em;
+}
+.tagline-filler {
+	width: 95.5em;
+	height: 10em;
+	margin-top:1.8em;
+	}
+#tagline-box-cell .triangle {
+    top: 11.6em;
+	}
+#win-banner,
+#win-banner p {
+	display:none;
+}
+
+
+

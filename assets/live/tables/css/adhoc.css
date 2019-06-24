@@ -1,0 +1,763 @@
+/* Section nav */
+
+#lhs-nav ul.lhs-nav-list li.lhs-nav-list__item--parent {
+	display:none;
+}
+ul.lhs-nav-list li.lhs-nav-list__item--lvl3:first-child {
+	margin-bottom: 1.25rem;
+}
+ul.lhs-nav-list li.lhs-nav-list__item--lvl3:first-child a {
+	color:#006dae;
+	font-weight:bold;
+	padding-left:0;
+	background:#ffffff;
+	padding:0.625rem 2.625rem 1.5625rem 0.875rem;
+}
+ul.lhs-nav-list li.lhs-nav-list__item--lvl3:first-child a:hover {
+	background-color:#ffffff;
+}
+ul.lhs-nav-list li.lhs-nav-list__item--lvl3:first-child a::after {
+	border-bottom:0.0625rem solid #006dae;
+	bottom:0;
+	content:'';
+	display:block;
+	height:0.0625rem;
+	position:absolute;
+	width:1.25rem;
+}
+
+/* Tab style updates for current students sites */
+
+.accordion .tabs__tab-list {
+	margin-top:1em;
+}
+
+.tabs__item {
+	-webkit-flex:0 0 auto!important;
+	flex:0 0 auto!important;
+	margin:0 0.5rem 0 0;
+    padding-bottom:0!important;
+}
+
+.tabs__link {
+	background:#d7d7d7;
+	font-weight:bold;
+}
+
+.tabs__link.uber-accordion__button {
+	color:#006dae!important;
+}
+
+.tabs__link.uber-accordion__button-active {
+	background-color:#f6f6f6;	
+	color:#505050!important;
+}
+
+.tabs__tab-content {
+	background-color:#f6f6f6;
+	padding:0.1rem 1.25rem 1.25rem 1.25rem;
+}
+
+.tabs__target {
+	padding:0;
+}
+
+#tab-image {
+	width: 50%;
+	float: left;
+}
+
+#tab-text {
+	width: 50%;
+	float: left;
+	padding-left: 20px;
+}
+
+@media screen and (max-width: 960px) {
+	#tab-image {width: 100%;}
+}
+
+/* Accordion styles (for left-arrow) */
+
+.accordion-left-arrow .accTitle a {
+	padding-left:2.5rem;
+}
+
+.accordion-left-arrow .accTitle a::before {
+	display:inline-block;
+	zoom:1;
+	background-color:transparent;
+	background-repeat:no-repeat;
+	background-size:376px 280px;
+	background-image:url(/__data/assets/git_bridge/0006/509343/deploy/styles/mysource_files/sprites.svg);
+	width:16px;
+	height:16px;
+	background-position:-96px -22px;
+	position:absolute;
+	right:0;
+	left:0.75rem;
+	content:'';
+}
+
+.accordion-left-arrow .accTitle a::after {
+	background:none;
+}
+
+.accordion-left-arrow .accTitle.uber-accordion__button-active > a::before {
+	width:16px;
+	height:16px;
+	background-position:-144px -22px;
+	right:0;
+	left:0.75rem;
+}
+
+.accordion-left-arrow-subtitle {
+	font-size:0.75em;
+	margin-top:0.75em;
+}
+
+
+/* ask.monash styles */
+
+.askmonash-asset-link a {
+	margin-top:5%;
+	display:block;
+	margin-right:100px;
+}
+
+.askmonash-asset-link {
+	background:url(/__data/assets/image/0014/101093/askmonash-logo-small-50.gif?v=0.0.2) no-repeat 97% top;
+	min-height:65px;
+}
+
+/* Tables */
+
+table {
+    width: 100%;
+}
+
+table.students-table {
+	overflow:visible;
+}
+
+.stripe, table.table-with-stripes tr:nth-child(2n+1) td {
+	background-color:#f5f6f6;
+}
+
+td.align-middle {
+	vertical-align:middle;
+}
+
+.tabs__tab-content .table-with-stripes {
+	background-color:#ffffff;
+	display:table;
+	margin-top:1em;
+}
+
+.tabs__tab-content .table-with-stripes th {
+	background-color:#e6e6e6!important;
+}
+
+/* Forms */
+
+#content_page input[type="submit"] {
+	background-color:#004185;
+	color:#ffffff;
+}
+
+.students-form {
+	background-color:#f0f0f0;
+	margin-bottom:1em;
+}
+
+.students-form-heading {
+	font-size:1.43rem;
+	color:#333333;
+	background-color:#dddddd;
+	padding:20px;
+	margin-bottom:0;
+}
+
+.students-form-elements {
+	padding:20px 20px 10px 20px;
+}
+
+.label {
+	color:#065484;
+	font-weight:bold;
+}
+
+.students-form-input-small {
+	width:25%;
+}
+
+.students-form-input-medium {
+	width:50%;
+}
+
+.students-form-input-full {
+	width:100%;
+}
+
+.students-form p {
+	margin-top:0;
+}
+
+.students-form input[type="text"] {
+	padding:10px 4%;
+	border:2px solid #ededed;
+	margin:0;
+	box-sizing:border-box;
+}
+
+.students-form textarea {
+	width:75%;
+	padding:10px 4%;
+	border:2px solid #ededed;
+	box-shadow: 2px 2px 2px 0px #c3c2c2 inset;
+	margin:0;
+	box-sizing:border-box;
+}
+
+.ui-datepicker-trigger {
+	padding:8px 0 0 0;
+}
+
+.students-form-button {
+	border:none;
+	color:#ffffff;
+	background-color:#006cae;
+	padding:0.5rem 1.5rem;
+}
+
+select.students-form-select {
+	padding:10px;
+	background-color:#f8f8f8;
+	border:1px solid #c4c4c4;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:0.8em;
+	font-weight:bold;
+	color:#555555;
+}
+
+.students-form-pre-message {
+	border-top:1px solid #cccccc;
+	padding-top:1em;
+	margin-top:2em;
+}
+
+/* VDaemon error styles */
+
+.defaultErr, .red {
+	font-weight:bold;
+	color:#ff0000;
+}
+
+.green {
+	font-weight:bold;
+	color:#005500;
+}
+
+.defaultErrBox, .defaultSuccessBox {
+	padding:0.5em;
+	margin-bottom:1em;
+	width:70%;
+	text-align:left;
+}
+
+.defaultErrBox ul, .defaultSuccessBox ul {
+	margin:1em;
+}
+
+.defaultErrBox {
+	background-color:#ffd8d8;
+	border:1px dotted #ff0000;
+}
+
+.defaultSuccessBox {
+	background-color:#ccffcc;
+	border:1px dashed #00ff00;
+}
+
+.ssd-bb {
+	display:none;
+}
+
+.students-loading {
+	background:url(/__data/assets/image/0006/353760/loading.gif) no-repeat top center;
+	min-height:60px;
+}
+
+.students-intro-border {
+	border-top:1px solid #cccccc;
+	padding-top:20px;
+}
+
+/* Five-star rating styles */
+
+.star-rating {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	float:left;
+}
+
+.star-rating li {
+	float:left;
+	overflow:hidden;
+	height:22px;
+	width:22px;
+	background:url(/__data/assets/image/0006/678840/rating-star-inactive.png) no-repeat top left;
+}
+
+.star-rating li a {
+	display:block;
+	height:22px;
+	width:22px;
+	text-indent:-100000px;
+}
+
+/* Extra styles */
+
+.grey-box {
+	background-color:#f6f6f6;
+	padding:15px;
+	margin-bottom:1em;
+}
+.students-print {
+    float:right;
+    margin-left:2em;
+    margin-bottom:2em;
+    background-color:#f6f6f6;
+    border-bottom:1px solid #006dae;
+    padding:1em;
+}
+.students-print a {
+    padding-left:22px;
+    background:url(/students/assets/monash/responsive/images/print.gif) no-repeat left center;
+}
+.students-highlight-box {
+	float:right;
+	background-color:#f6f6f6;
+	padding:15px 15px 15px 22px;
+	margin:0 0 1em 1em;
+	width:218px;
+}
+.screenshot-highlight-box {
+	padding:1px 1em;
+	background-color:#f6f6f6;
+	margin-bottom:1em;
+}
+.clear {
+    clear:both;
+}
+
+/* Typography */
+
+.content-inner__main h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #666666 !important;
+}
+
+/*.content-inner__main li:last-child {
+    padding-bottom: 20px;
+}*/
+
+
+/* CSS styles for Admissions homepage */
+
+#selector-window {
+    margin-bottom:1.5em;
+}
+
+a.admissions-selector-option {
+	padding:15px;
+	margin:10px 0;
+	display:block;
+	cursor:pointer;
+	background-color:#f6f6f6;
+	text-decoration:none;
+	color:#333333;
+}
+
+a.admissions-selector-option:hover {
+	background-color:#006f29;
+	color:#ffffff;
+    text-decoration:none;
+}
+
+/* Custom CSS for Leap into Leadership Online */
+
+.lilo-program-grey, .lilo-program-blue, .lilo-program-dark-grey, .lilo-program-white {
+	width:31%;
+	float:left;
+	margin:1em 0;
+}
+.lilo-program-grey-double {
+	width:64%;
+	float:left;
+	margin:1em 0;
+}
+.lilo-program-grey {
+	background-color:#d1d3d4;
+}
+.lilo-program-grey-double, .lilo-program-white {
+	border:2px solid #d1d3d4;
+}
+.lilo-program-blue {
+	background-color:#006cab;
+}
+.lilo-program-dark-grey {
+	background-color:#666768;
+}
+.lilo-program-right-margin {
+	margin-right:1em;
+}
+.lilo-program-grey a, .lilo-program-blue a, .lilo-program-dark-grey a, .lilo-program-grey-double a, .lilo-program-white a {
+	display:block;
+	padding:15px 15px 5px 15px;
+	text-decoration:none;
+	min-height: 325px;
+}
+.lilo-program-grey p {
+	color:#000000;
+}
+.lilo-program-blue p, .lilo-program-dark-grey p {
+	color:#ffffff;
+}
+.lilo-program-grey a:hover, .lilo-program-grey a:hover p, .lilo-program-blue a:hover, .lilo-program-dark-grey a:hover, .lilo-program-grey-double a:hover, .lilo-program-white a:hover {
+	color:#ffffff;
+	background-color:#423f40;
+}
+.lilo-program-no-link {
+	padding:15px 15px 5px 15px;
+}
+@media only screen and (max-width: 767px) {
+	.lilo-program-grey, .lilo-program-blue, .lilo-program-dark-grey, .lilo-program-grey-double, .lilo-program-white {
+		width:100%;
+	}
+	.lilo-program-right-margin {
+		margin-right:0;
+	}
+}
+
+
+
+/* Template changes for mobile phones */
+
+@media only screen and (max-width: 960px){
+    table {
+        display:block!important;
+        overflow:auto!important;
+    }
+
+    .students-highlight-box {
+        display:none;
+    }
+
+	.students-form input, .students-form textarea, .students-form select, .students-table input, .students-table-with-border input, .students-table-with-border textarea, .students-table select, .students-table-with-border select {
+		width:100%;
+	}
+	
+	.students-form input[type="checkbox"], .students-table input[type="checkbox"], .students-table-with-border input[type="checkbox"], .students-form input[type="radio"], .students-table input[type="radio"], .students-table-with-border input[type="radio"] {
+		width:auto;
+	}
+	
+	.defaultErrBox, .defaultSuccessBox {
+		width:100%;
+	}
+}
+
+/* Feature boxes - Reduced spacing top and bottom */
+
+.row.box-featured__group.bottom-gap--standard {
+    padding-bottom: 0 !important;
+}
+
+.row.box-featured__nest {
+    margin-bottom: 2rem;
+}
+
+.box-featured__wrapper {
+margin-bottom: -2rem;
+}
+
+#monash-faq-help-panel {
+margin-top: 2rem;
+}
+
+.intro-text h2 {
+margin-top: 1.5rem;
+margin-bottom: 0;
+}
+
+.banner {
+margin-bottom: 1rem;
+}
+
+.footer,
+.social-media-feed {
+margin-top: 2rem;
+}
+
+.social-media-feed-listing__heading {
+padding-top: 2rem;
+}
+
+
+@media screen and (max-width: 960px) {
+	.box-featured__wrapper {
+    	margin-bottom: 0;
+	}
+
+	/*#monash-faq-help-panel {
+    	margin-top: -1rem;
+	}*/
+
+	.top-gap--standard {
+    	padding-top: 0;
+	}
+	
+    .content {
+     	 padding: 0 1rem 0;
+	}
+}
+
+/* Call to action tile spacing */
+
+/*.call-to-action__action {
+    margin-left: 1rem;
+}*/
+
+/* Listing styles */
+
+.box-featured ul {
+    -webkit-margin-before: -1.5rem;
+    padding-left: 1.5rem;
+}
+
+.box-featured h2 + ul {
+    margin-top: 1.5rem;
+}
+
+.box-featured h2 + p {
+    -webkit-margin-before: 1rem;
+}
+
+.ol-alpha {
+	list-style-type:lower-alpha;
+}
+
+.ol-roman {
+	list-style-type:lower-roman;
+}
+
+ol.ol-alpha > li::before, ol.ol-roman > li::before {
+	content:"";
+	margin-left:auto;
+	margin-right:auto;
+}
+
+@media screen and (max-width: 960px) {
+    .box-featured ul {
+    -webkit-margin-before: -0.5rem;
+    }
+}
+/* Definition list */
+dt{display:block;float:left;min-width:120px;font-weight:600;}
+dt,dd{margin-bottom:1.4rem;}
+
+/* Two column div */
+
+.cs-left-column,
+.cs-right-column {
+    width: 50%;
+    float: left;
+    padding: 0;
+    margin: 0;
+    }
+
+@media screen and (max-width: 700px) {
+    .cs-left-column,
+    .cs-right-column {
+        width: 100%;
+        clear: both;
+        float: none;
+        }
+
+    .cs-left-column {
+        margin-bottom: -0.5em;
+        }
+}
+
+/* Responsive google calendar embed */
+
+.responsiveCal {
+position: relative;
+padding-bottom: 100%;
+height: 0;
+margin-bottom: 30px;
+}
+
+.responsiveCal iframe {
+position: absolute;
+top:0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+/* ----------------- CS dynamic tables ----------------- */
+
+table.cs-dynamic { 
+  width: 100%; 
+  border-collapse: collapse; 
+  display:table;
+  background-color: #ffffff;
+}
+
+.cs-dynamic.stripe tr:nth-child(odd){
+  background-color: #f7f7f7;
+}
+
+.cs-dynamic th { 
+  background: #e0e0e0; 
+  font-weight: bold; 
+}
+td.cs-dynamic,
+th.cs-dynamic { 
+  padding: 6px; 
+  border: 1px solid #ccc; 
+  text-align: left; 
+}
+table.cs-dynamic ul {
+    padding-left: 17px;
+}
+
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 761px) and (max-device-width: 1024px)  {
+
+
+	table.cs-dynamic,
+	.cs-dynamic thead,
+	.cs-dynamic tbody,
+	.cs-dynamic th,
+	.cs-dynamic td,
+	.cs-dynamic tr { 
+		display: block; 
+    	}
+	
+	.cs-dynamic th { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+    	}
+	
+	.cs-dynamic tr { 
+	    border: 1px solid #ccc;
+    	}
+    .cs-dynamic tr:nth-child(odd){
+        background-color: #f7f7f7;
+        }
+    	
+    .cs-dynamic tr:last-child td {
+        border-bottom: none;
+        }
+	
+	.cs-dynamic td { 
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 55%; 
+    	}
+	
+	.cs-dynamic td:before { 
+		position: absolute;
+		left: 6px;
+		width: 40%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+    	}
+    .cs-dynamic ul {
+        padding-left: 15px;
+        margin-top: -8px;
+    }
+}
+
+/* ----------------- CS button colour ----------------- */
+
+a.btn.btn--dynamic.btn--blue.box-featured__cta-link,
+a#admissions-selector-start-over,
+a.btn.btn--blue,
+a.btn.link--external,
+.btn--green,
+.box-featured__blurb .btn,
+.btn.box-featured__cta-link {
+background-color: #006f29 !important;
+}
+
+/* Special homepage feeds */
+
+.cs-special-feed__heading {
+	text-align:center;
+	margin-top:2em;
+}
+.cs-special-feed__label {
+	align-items:center;
+	color:#ffffff;
+	display:flex;
+	font-family:"Roboto Condensed", sans-serif;
+	font-size:1.125rem;
+	font-weight:300;
+	height:4.25rem;
+	justify-content:center;
+	min-width:5.25rem;
+	padding:1rem;
+	text-align:center;
+	text-transform:uppercase;
+}
+.cs-special-feed__text {
+	align-items:center;
+	background-color:#f6f6f6;
+	display:flex;
+	padding:1rem;
+	min-height:4.25rem;
+}
+.cs-special-feed__button {
+	text-align:center;
+}
+  
+/* Squiz form styles */ 
+
+legend.sq-form-section-title {
+    display:block;
+    font-weight:400;
+    font-family:"Roboto Condensed", sans-serif;
+    color:#505050;
+    font-size:1.3125rem;
+    line-height:1.1;
+    margin-bottom:0.83em;
+}
+.sq-form-question-title {
+    font-weight:bold;
+    color:#006dae;
+}
+.sq-form-required-field {
+    color:#ff0000;
+    border-bottom:none!important;
+    text-decoration:none;
+}
+em.sq-form-question-note {
+    font-style:normal;
+}
+input.sq-form-reset {
+    display:inline-block;
+    zoom:1;
+    background-color:#cccccc;
+    border:0;
+    color:#000000;
+    padding:0.75rem 1.0625rem;
+    text-align:center;
+}

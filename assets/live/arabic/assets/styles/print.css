@@ -1,0 +1,19 @@
+body {
+  color : #000000;
+  background : #ffffff;
+  font-size: 10pt;
+}
+
+#campaignheader, #campaign-left, #indent, #banner, #rotatingimage, #flashcontent, #right, #footer {
+	display: none;
+	}
+
+.do-not-print-this {
+	display: none;
+}
+
+#container {
+border: 0px;
+}
+
+

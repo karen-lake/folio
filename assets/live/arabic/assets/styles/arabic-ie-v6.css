@@ -1,0 +1,87 @@
+/*
+ARABIC LANGUAGE IE CSS
+VERSION: 1.0
+DATE: OCTOBER 2010
+AUTHOR: KAREN LAKE
+EMAIL: KAREN.LAKE@MONASH.EDU
+*/
+
+
+h1 {
+	margin: 0 0 0 0;
+	text-align:right;
+	text-indent:.3em;
+}
+ul {
+	margin: 0 0.5em 1.5em 3em;
+	}
+li {
+	margin-right:-0.5em;
+	text-indent:-0.7em;
+	}
+.caption {
+	padding:10px 10px 10px 10px;
+	font-size:0.9em;
+	width:580px;
+	height:10px;
+	}
+#language {
+	margin:92px 0 0 8px;
+	z-index:1;
+}
+.image {
+	margin:-140px 0 0 17px;
+	}
+.image-p {
+	margin:-140px 26px 30px 17px;
+	}
+.image-melb {
+	margin:133px 0 30px -73px;
+	}
+.text-column-narrow {
+	width:200px;
+	padding:0 10px 0 10px;
+	float:right;
+	margin:0 15px 0 0;
+	display:inline;
+}
+.quote-box {
+	padding:.6em 4em .6em .6em;
+	width:526px;
+	margin:20px 0 70px -61px;
+	}
+.quote-text {
+	position: absolute;
+	right:2.2em;
+	font-size: 1.2em;
+	line-height:1.8;
+	margin:0;
+	top:1em;
+	display:inline;
+	padding-left:0;
+	text-align:right;
+}
+.start-quote, .end-quote {
+	display:none;
+	}
+.text-column {
+	margin:120px 12px 5px 0;
+	width:280px;
+	}
+.text-column-short {
+	top: 170px;
+	width:275px;
+	}
+.top-button {
+	margin:.3em .8em .4em -.2em;
+	padding:.3em .5em .2em .5em;
+	background-color:#666666;
+	height:5px;
+}
+#top-links {
+	font-size:1em;
+	margin-bottom:-1em;
+}
+#footer {
+	width:950px;
+}

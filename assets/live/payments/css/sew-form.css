@@ -1,0 +1,291 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*-----------------------------Fonts----------------------*/
+
+@font-face {
+    font-family: 'OmnesLight';
+    src: url('../fonts/omnes-light-webfont.eot');
+    src: url('../fonts/omnes-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/omnes-light-webfont.woff') format('woff'),
+         url('../fonts/omnes-light-webfont.ttf') format('truetype'),
+         url('../fonts/omnes-light-webfont.svg#OmnesLight') format('svg');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'OmnesRegular';
+    src: url('../fonts/omnes-regular-webfont.eot');
+    src: url('../fonts/omnes-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/omnes-regular-webfont.woff') format('woff'),
+         url('../fonts/omnes-regular-webfont.ttf') format('truetype'),
+         url('../fonts/omnes-regular-webfont.svg#OmnesRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OmnesMedium';
+    src: url('../fonts/omnes-medium-webfont.eot');
+    src: url('../fonts/omnes-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/omnes-medium-webfont.woff') format('woff'),
+         url('../fonts/omnes-medium-webfont.ttf') format('truetype'),
+         url('../fonts/omnes-medium-webfont.svg#OmnesMedium') format('svg');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'OmnesBold';
+    src: url('../fonts/omnes-bold-webfont.eot');
+    src: url('../fonts/omnes-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/omnes-bold-webfont.woff') format('woff'),
+         url('../fonts/omnes-bold-webfont.ttf') format('truetype'),
+         url('../fonts/omnes-bold-webfont.svg#OmnesBold') format('svg');
+    font-style: normal;
+    font-weight: normal;
+}
+
+h1, .myTop20-H1, .myTop20-text, .myTop20-label, .myTop20-P, .label-small { 
+	font-family:'OmnesLight', Arial, sans-serif; 
+	}
+h2,h3,h4, .myTop20-H2, .myTop20-H3, .myTop20-Button {
+	font-family:'OmnesRegular', Arial, sans-serif;
+	}
+h5,h6, .error-message, .collapse p {
+	font-family:'OmnesMedium', Arial, sans-serif;
+	}
+html {
+	font-family:'OmnesRegular', Arial, sans-serif; 
+	font-size:62.5%;
+	}
+p {
+	font-family:'OmnesRegular', Arial, sans-serif;
+	}
+
+
+/*----------------Dropdown font ---------------------*/
+
+select {
+	font-family:'OmnesRegular', Arial, sans-serif; 
+}
+
+/*----------------Placeholder font ---------------------*/
+
+input {
+	font-family:'OmnesLight', Arial, sans-serif;
+}
+
+/*---------------------Form styles--------------------------------*/
+
+form {padding:0; margin:0; }
+
+.myTop20-BodyBackground, .myTop20-bgColor_Grey {background-color: #ebebeb;}
+.myTop20-bgColor_White {background-color:#FFFFFF; padding:0 10px 40px 0; }
+
+/*---------------------Font styles--------------------------------*/
+
+.myTop20-Grey {color:#585857; }
+.myTop20-Blue {color:#0082ba; }
+.myTop20-Bold { font-weight: bolder; }
+
+.myTop20-28px { font-size:28px; }
+.myTop20-20px { font-size:20px; }
+.myTop20-18px { font-size:18px; }
+.myTop20-16px { font-size:16px; line-height:16px;}
+.myTop20-15px { font-size:15px; line-height:15px;}
+.myTop20-14px { font-size:14px; line-height:14px; }
+
+.myTop20-H1 {padding-bottom: 20px;}
+.myTop20-P {line-height: 1.2; padding-bottom: 10px; color: #585857;}
+.myTop20-Padding40 {padding-left:40px; padding-bottom: 5px;}
+.myTop20-label {float: right; line-height: 1.2; color: #585857; text-align:right;}
+.label-small { font-size:12px; margin-top:5px;float: right; text-align:right;}
+
+
+/*---------------------Field styling--------------------------------*/
+
+.myTop20-Margin10 {margin-bottom:10px; }
+.myTop20-Field {width: 100%; font-size:16px; padding:0 0 0 5px; position: relative; z-index: 2;float: left; margin-bottom: 25px; height: 32px; border: none;}
+.myTop20-Outline { border-radius:0; font-weight:bold; width:80px; margin:0; background-color:#fff; color:#0098D8; border:#0098D8 solid 1px;}
+.myTop20-Outline:hover {border:none;}
+.captcha {border: none; height:20px;width:80px;background-color:#FFFFFF; position:relative; padding-left: 5px;}
+.captcha-refresh {cursor:pointer; position:relative; float:right; margin-right: -20px;}
+.security-check {margin-top: 15px;}
+
+
+
+
+/*---------------------Button styling--------------------------------*/
+
+.myTop20-Button {color: #fff; border-bottom-right-radius:.5em; border-bottom-left-radius:.5em; border-top-right-radius:0; border-top-left-radius:0; font-weight: bold; width:90px; margin:0; border: none; font-size:16px; height: 30px; padding: 0; float: right;}
+.btn-primary.myTop20-Button {background-color:#0082ba;}
+.btn-primary.myTop20-Button:hover {background-color:#555; color: #fff;}
+.btn-secondary.myTop20-Button:hover,
+.btn-captcha:hover {background-color:#585857; color: #fff;}
+.btn-secondary.myTop20-Button {background-color:#8d8a8a; color: #fff;}
+.pay-now1 {width:100px; margin:0;}
+.payment-s3, .print-s3 {width:170px; margin-bottom: 10px;}
+.myTop20-Button.margin-right {margin-right: 15px;}
+.btn-captcha {background-color:#0070BA; color: #fff; width:50px; margin:0 0 0 5px; border: none; font-size:13px; height: 20px; padding: 0 0 0 0;}
+
+
+
+/*----------------Dropdown arrow styling ---------------------*/
+
+select.drop-down  {
+      border: 0 !important;        /*Removes border*/
+      -webkit-appearance: none;    /*Removes default chrome and safari style*/
+      -moz-appearance: none;       /* Removes Default Firefox style*/
+	  -o-appearance:none;			/* Removes Default IE style*/
+   	  appearance:none;				/* Removes Default IE style*/
+      background: url('../images/dropdown-icon.png') no-repeat; /*Adds background-image*/
+      background-position: right;   /*Position of the background-image*/
+	  height: 30px;
+	  background-color: #fff;
+  }
+select::-ms-expand{					/* Removes Default IE style*/
+  display:none;
+}
+
+
+/*----------------Graphics styling ---------------------*/
+
+.myTop20-Field-sm.captcha-label {width:100px;}
+.sew-logo {width: 187px; height:74px;}
+
+
+/*--------------Collapse panel--------------*/
+
+.collapse {
+	float: right;
+	margin-top: -20px;
+    z-index: 1060;
+    display: none;
+    max-width: 280px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: .5;
+    text-align: left;
+    white-space: normal;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 6px;
+    -webkit-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+	}
+	
+.collapse img {
+	max-width: 275px;
+	padding-bottom: 5px;
+	}
+
+.collapse p {
+	background-color: #efefef;
+	padding: 20px;
+	}
+
+	
+/* Icon when the collapsible content is shown */
+.acc-ccv-info.btn:before {
+    font-family: "Glyphicons Halflings";
+    content:"\e014";
+}
+
+/* Icon when the collapsible content is hidden */
+.acc-ccv-info.btn.collapsed:before {
+	font-family: "Glyphicons Halflings";
+    content:"\e085";
+}
+
+/* Icon position */
+.acc-ccv-info {
+	position: absolute;
+	float:left;
+	color: #b6b6b7; 
+	background-color: #fff; 
+	height: 32px;
+	width: 25px; 
+	padding: 5px 0 0 0;
+	font-size:16px; 
+	font-weight: 100;
+	display: inline-block;
+	border-collapse: separate; 
+	border-radius: 0; 
+	z-index: 5; 
+	border: none;
+	margin-left: -25px;
+	}
+
+
+.acc-ccv-info:hover {
+	background-color: #b6b6b7;
+	}
+	
+/* Controls icon's on click colour */
+	
+.acc-ccv-info.btn-info:active:focus,
+.acc-ccv-info.btn-info:active.focus,
+.acc-ccv-info.btn-info:focus {
+  color: #fff;
+  background-color: #0082ba;
+  border-color: #000;
+}
+
+
+
+
+	
+/*----------------------Error message-----------------------*/	
+	
+.error-message {
+	border: 1px solid #AB181D;
+	padding: 3px 0 2px 10px;
+	width: 100%;
+	}
+	
+.error-glyph {
+	margin: 8px 5px 0 0;
+	}
+	
+.error-message p {
+	color: #AB181D;
+	line-height: 1.6;
+	font-size: 13px;
+	}
+span.indent {
+	margin-left: 20px;
+	}
+.error-message p a {
+	color: #AB181D;
+	text-decoration: underline;
+	}
+.error-message p a:hover {
+	color: #000;
+	text-decoration: underline;
+	}
+	
+	
+/*----------------------Media queries-----------------------*/	
+
+
+/* XS -- Extra small devices */
+@media (max-width: 500px) {
+	.myTop20-label {float: left;}
+	.myTop20-Padding40 {padding-left:0;}
+}
+
+/* SM -- Small devices */
+@media (min-width: 501px) and (max-width: 768px) {
+	.myTop20-label {float: left;}
+}
+
+/* MD -- Medium devices */
+@media (min-width: 769px) and (max-width: 1200px) {
+
+}
+
+/* LG -- Large devices  */
+@media (min-width: 1201px) {
+}

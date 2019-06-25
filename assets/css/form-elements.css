@@ -78,11 +78,23 @@
 	margin: 7px 18px 7px 12px;
 	vertical-align: middle;
 }
+
+/*
 .custom-select-image.custom-select-image-web-design { background: url(../img/icons/web-design.png) center center no-repeat; }
 .custom-select-image.custom-select-image-image-design { background: url(../img/icons/image-design.png) center center no-repeat; }
 .custom-select-image.custom-select-image-branding { background: url(../img/icons/branding.png) center center no-repeat; }
 .custom-select-image.custom-select-image-dtp { background: url(../img/icons/dtp.png) center center no-repeat; }
 .custom-select-image.custom-select-image-tv-campanies { background: url(../img/icons/tv-campanies.png) center center no-repeat; }
+
+*/
+          
+.custom-select-image.custom-select-image-web { background: url(../img/icons/web-design.png) center center no-repeat; }
+.custom-select-image.custom-select-image-digital { background: url(../img/icons/image-design.png) center center no-repeat; }
+.custom-select-image.custom-select-image-print { background: url(../img/icons/branding.png) center center no-repeat; }
+.custom-select-image.custom-select-image-email { background: url(../img/icons/dtp.png) center center no-repeat; }
+.custom-select-image.custom-select-image-development { background: url(../img/icons/tv-campanies.png) center center no-repeat; }    
+
+
 
 
 /***** Project valuation form *****/

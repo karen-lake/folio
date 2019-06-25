@@ -1,4 +1,6 @@
 
+
+
 body {
     background: #fff;
     text-align: center;
@@ -693,3 +695,9 @@ footer .footer-right {
 	width: 670px;
 }
 
+/***** Core COLOUR overide *****/
+
+.nav,
+.portfolio-container {
+	background: #80beb0;
+}

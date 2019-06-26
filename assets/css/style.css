@@ -300,8 +300,15 @@ nav .show-menu span {
 
 .development-box-text {
 	float: left;
-	width: 300px;
+	/*width: 300px;*/
 	text-align: left;
+}
+
+.development-box-text p.small {
+	font-style: italic;
+	font-size: 14px;
+	padding-top: 0;
+	margin-top: 0;
 }
 
 .development-box-text h3 {
@@ -412,97 +419,35 @@ nav .show-menu span {
 }
 
 
-/***** Slider *****/
-
-.slider {
-	width: 1030px;
-	margin: 0 auto;
-}
-
-.slider .carousel-control.left {
-	left: -70px;
-	width: 28px;
-	background: url(../img/icons/slider-left.png) center center no-repeat;
-	filter: none;
-}
-
-.slider .carousel-control.right {
-	right: -70px;
-	width: 28px;
-	background: url(../img/icons/slider-right.png) center center no-repeat;
-	filter: none;
-}
-
-.slider .carousel-control { opacity: 1; filter: alpha(opacity=100); }
-
-
-/***** Project valuation *****/
-
-.project-valuation-container {
-    margin: 0 auto;
-    padding: 45px 0 70px 0;
-}
-
-.project-valuation h2 {
-	font-family: 'signikabold', sans-serif;
-	font-size: 60px;
-	color: #464c5c;
-	line-height: 64px;
-	text-transform: uppercase;
-}
-
-.project-valuation p {
-	margin-top: 15px;
-	margin-bottom: 0;
-	padding: 0 120px;
-	font-family: 'signikalight', sans-serif;
-	font-size: 20px;
-	color: #9ea0a6;
-    line-height: 26px;
-}
-
-.project-valuation-form {
-	margin-top: 60px;
-	text-align: left;
-}
-
-.project-valuation-form form { overflow: hidden; }
-
-.project-valuation-form form .project-valuation-form-left {
-	float: left;
-	width: 370px;
-}
-
-.project-valuation-form form .project-valuation-form-right {
-	float: right;
-	width: 670px;
-}
-
-.project-valuation-form form label { margin-top: 45px; }
-.project-valuation-form form input[type="submit"] { margin: 45px 0 0 0; }
-
-.project-valuation-form form .project-valuation-form-left label:first-child, 
-.project-valuation-form form .project-valuation-form-right label:first-child { margin-top: 0; }
-
-
-
 
 
 /***** Animation module*****/
 
 .animation-container {
     margin: 0 auto;
-    padding: 45px 0 70px 0;
-    background: #ffffff;
+    padding: 35px 0 55px 0;
+    color: #ffffff;
 }
 
-.animation h2 {
+.animation-box {
+	margin-top: 30px;
+}
+
+.animation-container h2 {
 	font-family: 'signikabold', sans-serif;
 	font-size: 60px;
 	line-height: 64px;
 	text-transform: uppercase;
 	text-shadow: 0 2px 0 rgba(8, 8, 8, 0.2);
 	color: #80beb0;
+}
+
+.animation-box h3 {
+	padding: 0 0 4px 0;
+	font-family: 'signikasemibold', sans-serif;
+	font-size: 24px;
+    color: #464c5c;
+    line-height: 28px;
 }
 
 .animation p {
@@ -513,6 +458,16 @@ nav .show-menu span {
     line-height: 26px;
     text-shadow: 0 1px 0 rgba(8, 8, 8, 0.2);
 }
+
+.animation-box .animation-box-icon {
+    width: 111px;
+    height: 111px;
+    margin: 0 auto;
+}
+
+
+
+
 
 
 

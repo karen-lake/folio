@@ -88,13 +88,13 @@ nav .show-menu span {
 	line-height: 52px;
 }
 
-.top-content-computer-container {
+.top-content-banner-container {
 	position: relative;
 	margin: 0 auto;
-	width: 571px;
-	height: 405px;
+	width: 544px;
+	height: 250px;
 }
-.top-content-computer-container img { width: 100%; }
+.top-content-banner-container img { width: 100%; }
 
 .top-content-video {
 	position: absolute;

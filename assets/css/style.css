@@ -488,15 +488,15 @@ nav .show-menu span {
 
 
 
-/***** Contact module*****/
+/***** Animation module*****/
 
-.contact-us-container {
+.animation-container {
     margin: 0 auto;
     padding: 45px 0 70px 0;
     background: #ffffff;
 }
 
-.contact-us h2 {
+.animation h2 {
 	font-family: 'signikabold', sans-serif;
 	font-size: 60px;
 	line-height: 64px;
@@ -505,7 +505,7 @@ nav .show-menu span {
 	color: #80beb0;
 }
 
-.contact-us p {
+.animation p {
 	margin-top: 15px;
 	padding: 0 120px;
     font-family: 'signikalight', sans-serif;
@@ -514,36 +514,6 @@ nav .show-menu span {
     text-shadow: 0 1px 0 rgba(8, 8, 8, 0.2);
 }
 
-.contact-us-form {
-	margin-top: 60px;
-	text-align: left;
-}
-
-.contact-us-form form { overflow: hidden; }
-
-.contact-us-form form .contact-us-form-left {
-	float: left;
-	width: 440px;
-}
-
-.contact-us-form form .contact-us-form-right {
-	float: right;
-	width: 670px;
-}
-
-.contact-us-form form .contact-us-input-container { position: relative; margin-top: 30px; }
-.contact-us-form form .contact-us-form-left .contact-us-input-container:first-child, 
-.contact-us-form form .contact-us-form-right .contact-us-input-container:first-child { margin-top: 0; }
-
-.contact-us-form form label {
-	position: absolute;
-	top: 19px;
-	left: 20px;
-	z-index: 130;
-}
-
-
-.contact-us-form form input[type="submit"] { margin: 30px 0 0 0; }
 
 
 /***** Footer *****/

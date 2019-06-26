@@ -1,3 +1,10 @@
+/* ------------------- Creativity template styles ------------------- 
+
+Original template: https://www.themezy.com/free-website-templates/8-free-minimal-creativity-responsive-template
+
+Copyright: Themezy 
+
+*/
 
 
 
@@ -29,7 +36,7 @@ nav {
 	left: 0;
 	width: 100%;
 	padding: 28px 0;
-	background: #9ccbc0;
+	background: #80beb0;
 	z-index: 99999;
 }
 
@@ -168,7 +175,7 @@ nav .show-menu span {
 .portfolio-container {
     margin: 0 auto;
     padding: 45px 0 70px 0;
-    background: #9ccbc0;
+    background: #80beb0;
     color: #fff;
 }
 
@@ -269,7 +276,7 @@ nav .show-menu span {
 .development h2 {
 	font-family: 'signikabold', sans-serif;
 	font-size: 60px;
-	color: #464c5c;
+	color: #ffffff;
 	line-height: 64px;
 	text-transform: uppercase;
 }
@@ -290,21 +297,10 @@ nav .show-menu span {
     overflow: hidden;
 }
 
-.team-box-photo {
-	float: left;
-	width: 140px;
-}
-
-.development-box-photo img {
-	-moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    border-radius: 4px;
-}
 
 .development-box-text {
 	float: left;
-	width: 350px;
-	padding-left: 30px;
+	width: 320px;
 	text-align: left;
 }
 
@@ -498,7 +494,6 @@ nav .show-menu span {
     margin: 0 auto;
     padding: 45px 0 70px 0;
     background: #ffffff;
-    color: #464c5c;
 }
 
 .contact-us h2 {
@@ -507,6 +502,7 @@ nav .show-menu span {
 	line-height: 64px;
 	text-transform: uppercase;
 	text-shadow: 0 2px 0 rgba(8, 8, 8, 0.2);
+	color: #80beb0;
 }
 
 .contact-us p {
@@ -574,9 +570,3 @@ footer .footer-right {
 	width: 670px;
 }
 
-/***** Core COLOUR overide *****/
-
-.nav,
-.portfolio-container {
-	background: #80beb0;
-}

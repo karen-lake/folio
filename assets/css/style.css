@@ -446,7 +446,7 @@ nav .show-menu span {
 	padding: 0 0 4px 0;
 	font-family: 'signikasemibold', sans-serif;
 	font-size: 24px;
-    color: #464c5c;
+    color: #80beb0;
     line-height: 28px;
 }
 
@@ -457,6 +457,7 @@ nav .show-menu span {
 	font-size: 20px;
     line-height: 26px;
     text-shadow: 0 1px 0 rgba(8, 8, 8, 0.2);
+	color: #80beb0;
 }
 
 .animation-box .animation-box-icon {

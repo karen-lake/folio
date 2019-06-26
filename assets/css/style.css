@@ -255,9 +255,9 @@ nav .show-menu span {
 }
 
 
-/***** Our team *****/
+/***** Development work *****/
 
-.team-container {
+.development-container {
     margin: 0 auto;
     padding: 45px 0 70px 0;
     font-family: 'signikalight', sans-serif;
@@ -266,7 +266,7 @@ nav .show-menu span {
     line-height: 26px;
 }
 
-.team h2 {
+.development h2 {
 	font-family: 'signikabold', sans-serif;
 	font-size: 60px;
 	color: #464c5c;
@@ -274,13 +274,13 @@ nav .show-menu span {
 	text-transform: uppercase;
 }
 
-.team p {
+.development p {
 	margin-top: 15px;
 	margin-bottom: 30px;
 	padding: 0 120px;
 }
 
-.team-box {
+.development-box {
 	margin-top: 30px;
 	padding: 30px;
 	border: 2px solid #e7e7e7;
@@ -295,20 +295,20 @@ nav .show-menu span {
 	width: 140px;
 }
 
-.team-box-photo img {
+.development-box-photo img {
 	-moz-border-radius: 4px;
     -webkit-border-radius: 4px;
     border-radius: 4px;
 }
 
-.team-box-text {
+.development-box-text {
 	float: left;
 	width: 350px;
 	padding-left: 30px;
 	text-align: left;
 }
 
-.team-box-text h3 {
+.development-box-text h3 {
 	margin: 0;
 	padding: 0;
 	font-family: 'signikabold', sans-serif;
@@ -318,11 +318,11 @@ nav .show-menu span {
 	text-transform: uppercase;
 }
 
-.team-box-text p {
+.development-box-text p {
 	margin: 20px 0 0 0;
 }
 
-.team-box-text .team-box-social {
+.development-box-text .development-box-social {
 	height: 38px;
 	margin-top: 24px;
 }

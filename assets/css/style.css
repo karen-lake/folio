@@ -328,16 +328,16 @@ nav .show-menu span {
 }
 
 
-/***** Customer reviews *****/
+/***** Development *****/
 
-.reviews-container {
+.development-container {
     margin: 0 auto;
     padding: 45px 0 55px 0;
     background: #d96459;
     color: #fff;
 }
 
-.reviews h2 {
+.development h2 {
 	font-family: 'signikabold', sans-serif;
 	font-size: 60px;
 	line-height: 64px;
@@ -345,7 +345,7 @@ nav .show-menu span {
 	text-shadow: 0 2px 0 rgba(8, 8, 8, 0.2);
 }
 
-.reviews p {
+.development p {
     padding: 0 120px;
     font-family: 'Georgia', serif;
 	font-size: 20px;
@@ -354,7 +354,7 @@ nav .show-menu span {
     text-shadow: 0 1px 0 rgba(8, 8, 8, 0.2);
 }
 
-.reviews a.review-author {
+.development a.review-author {
 	font-family: 'signikasemibold', sans-serif;
 	font-size: 14px;
 	font-style: normal;
@@ -364,20 +364,20 @@ nav .show-menu span {
 	text-shadow: 0 1px 0 rgba(8, 8, 8, 0.2);
 }
 
-.review-active {
+.development-active {
 	margin-top: 45px;
 	padding-bottom: 20px;
 }
 
-.review-single {
+.development-single {
 	display: inline-block;
 }
 
-.review-single p {
+.development-single p {
 	display: none;
 }
 
-.review-single-pagination {
+.development-single-pagination {
 	display: inline-block;
 	vertical-align: middle;
 	width: 28px;
@@ -390,9 +390,9 @@ nav .show-menu span {
     cursor: pointer;
 }
 
-.review-single-pagination.active { border: 2px solid #fff; }
+.development-single-pagination.active { border: 2px solid #fff; }
 
-.review-single-pagination.active span {
+.development-single-pagination.active span {
 	display: block;
 	width: 14px;
 	height: 14px;

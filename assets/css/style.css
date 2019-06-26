@@ -266,8 +266,10 @@ nav .show-menu span {
 
 .development-container {
     margin: 0 auto;
-    padding: 45px 0 70px 0;
-    font-family: 'signikalight', sans-serif;
+    padding: 45px 0 55px 0;
+	background: #464c5c;
+    color: #fff;
+	font-family: 'signikalight', sans-serif;
 	font-size: 20px;
 	color: #9ea0a6;
     line-height: 26px;
@@ -276,15 +278,20 @@ nav .show-menu span {
 .development h2 {
 	font-family: 'signikabold', sans-serif;
 	font-size: 60px;
-	color: #ffffff;
 	line-height: 64px;
 	text-transform: uppercase;
+	text-shadow: 0 2px 0 rgba(8, 8, 8, 0.2);
+	color: #ffffff;
 }
 
 .development p {
 	margin-top: 15px;
 	margin-bottom: 30px;
-	padding: 0 120px;
+    font-family: 'Georgia', serif;
+	font-size: 20px;
+	font-style: italic;
+    line-height: 30px;
+    text-shadow: 0 1px 0 rgba(8, 8, 8, 0.2);
 }
 
 .development-box {
@@ -300,7 +307,6 @@ nav .show-menu span {
 
 .development-box-text {
 	float: left;
-	/*width: 300px;*/
 	text-align: left;
 }
 
@@ -328,94 +334,6 @@ nav .show-menu span {
 .development-box-text .development-box-social {
 	height: 38px;
 	margin-top: 24px;
-}
-
-
-/***** Development *****/
-
-.development-container {
-    margin: 0 auto;
-    padding: 45px 0 55px 0;
-    /*background: #d96459;
-    color: #fff;*/
-	background: #464c5c;
-    color: #fff;
-}
-
-.development h2 {
-	font-family: 'signikabold', sans-serif;
-	font-size: 60px;
-	line-height: 64px;
-	text-transform: uppercase;
-	text-shadow: 0 2px 0 rgba(8, 8, 8, 0.2);
-	color: #ffffff;
-}
-
-.development p {
-    padding: 0 120px;
-    font-family: 'Georgia', serif;
-	font-size: 20px;
-	font-style: italic;
-    line-height: 30px;
-    text-shadow: 0 1px 0 rgba(8, 8, 8, 0.2);
-}
-
-
-.contact-us p {
-	margin-top: 15px;
-	padding: 0 120px;
-    font-family: 'signikalight', sans-serif;
-	font-size: 20px;
-    line-height: 26px;
-    text-shadow: 0 1px 0 rgba(8, 8, 8, 0.2);
-}
-.development a.review-author {
-	font-family: 'signikasemibold', sans-serif;
-	font-size: 14px;
-	font-style: normal;
-	color: #f8b3ac;
-	line-height: 18px;
-	text-transform: uppercase;
-	text-shadow: 0 1px 0 rgba(8, 8, 8, 0.2);
-}
-
-.development-active {
-	margin-top: 45px;
-	padding-bottom: 20px;
-}
-
-.development-single {
-	display: inline-block;
-}
-
-.development-single p {
-	display: none;
-}
-
-.development-single-pagination {
-	display: inline-block;
-	vertical-align: middle;
-	width: 28px;
-	height: 28px;
-	margin: 0 2px 10px 2px;
-	background: #b8554c;
-	-moz-border-radius: 15px;
-    -webkit-border-radius: 15px;
-    border-radius: 15px;
-    cursor: pointer;
-}
-
-.development-single-pagination.active { border: 2px solid #fff; }
-
-.development-single-pagination.active span {
-	display: block;
-	width: 14px;
-	height: 14px;
-	margin: 5px auto;
-	background: #fff;
-	-moz-border-radius: 8px;
-    -webkit-border-radius: 8px;
-    border-radius: 8px;
 }
 
 
@@ -450,14 +368,14 @@ nav .show-menu span {
     line-height: 28px;
 }
 
-.animation p {
-	margin-top: 15px;
-	padding: 0 120px;
+.animation-box p {
+	margin-top: 10px;
+	padding: 0 10px;
     font-family: 'signikalight', sans-serif;
 	font-size: 20px;
     line-height: 26px;
     text-shadow: 0 1px 0 rgba(8, 8, 8, 0.2);
-	color: #80beb0;
+	color: #555;
 }
 
 .animation-box .animation-box-icon {

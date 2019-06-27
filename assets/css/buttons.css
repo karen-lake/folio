@@ -106,6 +106,7 @@
 .button-social-1.button-pinterest-1 { background: #9ccbc0 url(../img/icons/social/pinterest.png) center center no-repeat; }
 
 
+
 /***** Social button 2 *****/
 
 .button-social-2 {
@@ -130,6 +131,7 @@
 .button-social-2.button-google-plus-2 { background: #9ccbc0 url(../img/icons/social/google-plus.png) 11px center no-repeat; }
 .button-social-2.button-twitter-2 { background: #9ccbc0 url(../img/icons/social/twitter.png) 11px center no-repeat; }
 .button-social-2.button-pinterest-2 { background: #9ccbc0 url(../img/icons/social/pinterest.png) 11px center no-repeat; }
+.button-social-2.button-email-2 { background: #9ccbc0 url("../img/icons/email.png") 11px center no-repeat; }
 
 .button-social-2 span {
 	display: block;

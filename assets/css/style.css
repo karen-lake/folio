@@ -396,21 +396,14 @@ footer {
 	margin: 0 auto;
     padding: 70px 0 55px 0;
     background: #3b404d;
-    text-align: left;
+    text-align: center;
 }
 
-footer .footer-left {
-	float: left;
-	width: 440px;
+footer p {
 	padding-top: 14px;
 	font-family: 'signikalight', sans-serif;
-	font-size: 18px;
+	font-size: 12px;
 	color: #818590;
-    line-height: 24px;
 }
 
-footer .footer-right {
-	float: right;
-	width: 670px;
-}
 

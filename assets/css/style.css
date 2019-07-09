@@ -378,6 +378,13 @@ nav .show-menu span {
 	color: #555;
 }
 
+.animation-box p.small {
+	font-style: italic;
+	font-size: 14px;
+	padding-top: 0;
+	margin-top: 0;
+}
+
 .animation-box .animation-box-icon {
     width: 111px;
     height: 111px;

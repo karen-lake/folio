@@ -59,14 +59,14 @@
 /***** Button 3 *****/
 
 .portfolio-filters a {
-	display: inline-block;
-	height: 53px;
-	margin: 5px 4px;
-	padding: 19px 18px 0 18px;
-	background: #b6d8d0;
-	font-family: 'signikaregular', sans-serif;
+    display: inline-block;
+    height: 53px;
+    margin: 5px 4px;
+    padding: 19px 18px 0 18px;
+    background: #555;
+    font-family: 'signikaregular', sans-serif;
     font-size: 18px;
-    color: #87b0a6;
+    color: #efefef;
     line-height: 18px;
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
@@ -126,11 +126,6 @@
 	outline: none;
 	background-color: #9ccbc0;
 }
-
-.button-social-2.button-facebook-2 { background: #9ccbc0 url(../img/icons/social/facebook.png) 11px center no-repeat; }
-.button-social-2.button-google-plus-2 { background: #9ccbc0 url(../img/icons/social/google-plus.png) 11px center no-repeat; }
-.button-social-2.button-twitter-2 { background: #9ccbc0 url(../img/icons/social/twitter.png) 11px center no-repeat; }
-.button-social-2.button-pinterest-2 { background: #9ccbc0 url(../img/icons/social/pinterest.png) 11px center no-repeat; }
 .button-social-2.button-email-2 { background: #9ccbc0 url("../img/icons/email.png") 11px center no-repeat; }
 
 .button-social-2 span {
@@ -138,7 +133,7 @@
 	height: 47px;
 	margin: 0;
 	padding: 15px 17px 0 17px;
-	background: #90bcb2;
+	background: #777777;
 	font-family: 'signikaregular', sans-serif;
     font-size: 18px;
     color: #fff;

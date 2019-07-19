@@ -36,7 +36,8 @@ nav {
 	left: 0;
 	width: 100%;
 	padding: 28px 0;
-	background: #80beb0;
+	/*background: #80beb0;*/
+	background: #464B5C;
 	z-index: 99999;
 }
 
@@ -49,7 +50,9 @@ nav .nav-logo a {
 	height: 34px;
 	margin: 7px 0 0 0;
 	padding: 0;
-	background: url(../img/logo.png) left center no-repeat;
+	/*background: url(../img/logo.png) left center no-repeat;*/
+	background: url(../img/karen-lake-text-orange.svg) left center no-repeat;
+	
 	text-indent: -9999px;
 }
 
@@ -72,11 +75,12 @@ nav .show-menu span {
 .top-content-container {
     margin: 0 auto;
     background: #464c5c;
+	background: #fff;
 }
 
 .inner-bg {
 	padding: 155px 0 70px 0;
-	background: url(../img/top-bg.jpg) left 109px repeat;
+	/*background: url(../img/top-bg.jpg) left 109px repeat;*/
 }
 
 .top-content-text h1 {
@@ -137,16 +141,30 @@ nav .show-menu span {
 }
 
 
-/***** Services *****/
+/***** Skills *****/
 
-.services-container {
+
+.skills-container {
     margin: 0 auto;
-    padding: 35px 0 55px 0;
-    color: #9ea0a6;
+    background: #464c5c;
+	background: #fff;
+}
+
+.inner-bg {
+	padding: 155px 0 70px 0;
+	/*background: url(../img/top-bg.jpg) left 109px repeat;*/
 }
 
 .services-box {
 	margin-top: 30px;
+}
+
+.skills-container h2 {
+	font-family: 'signikabold', sans-serif;
+	font-size: 60px;
+	line-height: 64px;
+	text-transform: uppercase;
+	text-shadow: 0 2px 0 rgba(8, 8, 8, 0.2);
 }
 
 .services-box h3 {
@@ -267,11 +285,10 @@ nav .show-menu span {
 .development-container {
     margin: 0 auto;
     padding: 45px 0 55px 0;
-	background: #464c5c;
+	background: #555;
     color: #fff;
 	font-family: 'signikalight', sans-serif;
 	font-size: 20px;
-	color: #9ea0a6;
     line-height: 26px;
 }
 
@@ -310,6 +327,10 @@ nav .show-menu span {
 	text-align: left;
 }
 
+.development-box a {
+    color: #ffffff;
+}
+
 .development-box-text p.small {
 	font-style: italic;
 	font-size: 14px;
@@ -344,7 +365,7 @@ nav .show-menu span {
 .animation-container {
     margin: 0 auto;
     padding: 35px 0 55px 0;
-    color: #ffffff;
+	background: #777777;
 }
 
 .animation-box {
@@ -364,7 +385,7 @@ nav .show-menu span {
 	padding: 0 0 4px 0;
 	font-family: 'signikasemibold', sans-serif;
 	font-size: 24px;
-    color: #80beb0;
+    color: #ffffff;
     line-height: 28px;
 }
 
@@ -375,7 +396,7 @@ nav .show-menu span {
 	font-size: 20px;
     line-height: 26px;
     text-shadow: 0 1px 0 rgba(8, 8, 8, 0.2);
-	color: #555;
+	color: #ffffff;
 }
 
 .animation-box p.small {
@@ -386,14 +407,28 @@ nav .show-menu span {
 }
 
 .animation-box .animation-box-icon {
-    width: 111px;
-    height: 111px;
+    width: 220px;
+    height: 146px;
     margin: 0 auto;
 }
 
+/***** About me *****/
 
-
-
+.about-container h2 {
+	font-family: 'signikabold', sans-serif;
+	font-size: 60px;
+	line-height: 64px;
+	text-transform: uppercase;
+	text-shadow: 0 2px 0 rgba(8, 8, 8, 0.2);
+	color: #80beb0;
+}
+.about-container p {
+	padding: 0 0 4px 0;
+	font-family: 'signikasemibold', sans-serif;
+	font-size: 20px;
+    color: #464c5c;
+    line-height: 28px;
+}
 
 
 
@@ -413,4 +448,27 @@ footer p {
 	color: #818590;
 }
 
+/***** Highlight colour *****/
+
+
+
+.button-social-2.button-email-2 {
+    background: #FF6608;
+}
+
+.top-content-text h1 span.top-content-text-big,
+.skills-container h2,
+.about-container h2,
+.portfolio h2,
+.portfolio-container h2,
+.animation-container h2,
+h2,
+.button-1:hover,
+.button-1:focus,
+.button-1.active,
+filters a.active,
+.portfolio-filters a.active,
+.development-box-text h3 {
+    color: #FF6608;
+}
 

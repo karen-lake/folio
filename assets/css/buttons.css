@@ -17,7 +17,7 @@
 .button-1:hover, .button-1:focus, .button-1.active {
 	outline: none;
 	background: #fff;
-	color: #9ccbc0;
+	color: #FF6608;
 	text-shadow: none;
 	-moz-border-radius: 4px;
     -webkit-border-radius: 4px;
@@ -36,7 +36,7 @@
 	height: 62px;
 	margin: 0 0 0 30px;
     padding: 22px 30px 0 30px;
-    background: #9ccbc0;
+    background: #FF6608;
     font-family: 'signikaregular', sans-serif;
     font-size: 18px;
     color: #fff;
@@ -51,7 +51,7 @@
 }
 
 .button-2:hover, .button-2:focus {
-	background: #9ccbc0;
+	background: #FF6608;
 	color: #fff;
 }
 
@@ -79,7 +79,7 @@
 .portfolio-filters a:hover, .portfolio-filters a:focus, .portfolio-filters a.active {
 	outline: none;
 	background: #fff;
-	color: #9ccbc0;
+	color: #FF6608;
 }
 
 
@@ -97,13 +97,13 @@
 
 .button-social-1:hover {
 	outline: none;
-	background-color: #9ccbc0;
+	background-color: #FF6608;
 }
 
-.button-social-1.button-facebook-1 { background: #9ccbc0 url(../img/icons/social/facebook.png) center center no-repeat; }
-.button-social-1.button-google-plus-1 { background: #9ccbc0 url(../img/icons/social/google-plus.png) center center no-repeat; }
-.button-social-1.button-twitter-1 { background: #9ccbc0 url(../img/icons/social/twitter.png) center center no-repeat; }
-.button-social-1.button-pinterest-1 { background: #9ccbc0 url(../img/icons/social/pinterest.png) center center no-repeat; }
+.button-social-1.button-facebook-1 { background: #FF6608 url(../img/icons/social/facebook.png) center center no-repeat; }
+.button-social-1.button-google-plus-1 { background: #FF6608 url(../img/icons/social/google-plus.png) center center no-repeat; }
+.button-social-1.button-twitter-1 { background: #FF6608url(../img/icons/social/twitter.png) center center no-repeat; }
+.button-social-1.button-pinterest-1 { background: #FF6608url(../img/icons/social/pinterest.png) center center no-repeat; }
 
 
 
@@ -124,9 +124,9 @@
 
 .button-social-2:hover {
 	outline: none;
-	background-color: #9ccbc0;
+	background-color: #FF6608;
 }
-.button-social-2.button-email-2 { background: #9ccbc0 url("../img/icons/email.png") 11px center no-repeat; }
+.button-social-2.button-email-2 { background: ##FF6608 url("../img/icons/email.png") 11px center no-repeat; }
 
 .button-social-2 span {
 	display: block;

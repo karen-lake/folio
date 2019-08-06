@@ -74,7 +74,7 @@ nav .show-menu span {
 
 h2 {
 	font-family: 'signikabold', sans-serif;
-	font-size: 60px;
+	font-size: 55px;
 	line-height: 64px;
 	text-shadow: 0 2px 0 rgba(8, 8, 8, 0.2);
 }
@@ -428,11 +428,6 @@ footer p {
 }
 
 .top-content-text h1 span.top-content-text-big,
-/*.skills-container h2,
-.about-container h2,
-.portfolio h2,
-.portfolio-container h2,
-.animation-container h2,*/
 .portfolio-box-text h3,
 h2,
 .button-1:hover,

@@ -83,6 +83,10 @@ nav .show-menu span {
 	/*background: url(../img/top-bg.jpg) left 109px repeat;*/
 }
 
+.inner-bg-topless {
+	padding: 55px 0 70px 0;
+}
+
 .top-content-text h1 {
 	font-family: 'signikalight', sans-serif;
 	font-size: 36px;
@@ -148,11 +152,6 @@ nav .show-menu span {
     margin: 0 auto;
     background: #464c5c;
 	background: #fff;
-}
-
-.inner-bg {
-	padding: 155px 0 70px 0;
-	/*background: url(../img/top-bg.jpg) left 109px repeat;*/
 }
 
 .services-box {
@@ -325,39 +324,36 @@ nav .show-menu span {
     overflow: hidden;
 }
 
-
 .development-box-text {
 	float: left;
 	text-align: left;
-}
-
-.development-box a {
-    color: #ffffff;
+	font-size: 16px;
+	line-height: 1.4;
 }
 
 .development-box-text p.small {
 	font-style: italic;
 	font-size: 14px;
-	padding-top: 0;
+	padding-top: 10px;
 	margin-top: 0;
 }
 
 .development-box-text h3 {
 	margin: 0;
 	padding: 0;
-	font-family: 'signikabold', sans-serif;
+	font-family: 'signikasemibold', sans-serif;
 	font-size: 20px;
 	color: #9ccbc0;
 	line-height: 24px;
 }
 
 .development-box-text p {
-	margin: 20px 0 0 0;
+	margin: 10px 0 0 0;
 }
 
 .development-box-text .development-box-social {
 	height: 38px;
-	margin-top: 24px;
+	margin-top: 16px;
 }
 
 
@@ -470,7 +466,7 @@ h2,
 .button-1.active,
 filters a.active,
 .portfolio-filters a.active,
-.development-box-text h3 {
+.development-box-text h3 a {
     color: #FF6608;
 }
 

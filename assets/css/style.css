@@ -163,7 +163,6 @@ nav .show-menu span {
 	font-family: 'signikabold', sans-serif;
 	font-size: 60px;
 	line-height: 64px;
-	text-transform: uppercase;
 	text-shadow: 0 2px 0 rgba(8, 8, 8, 0.2);
 }
 
@@ -201,16 +200,15 @@ nav .show-menu span {
 	font-family: 'signikabold', sans-serif;
 	font-size: 60px;
 	line-height: 64px;
-	text-transform: uppercase;
 	text-shadow: 0 2px 0 rgba(8, 8, 8, 0.2);
 }
 
 .portfolio p {
-	margin-top: 15px;
+	margin-top: 10px;
 	padding: 0 120px;
     font-family: 'signikalight', sans-serif;
-	font-size: 20px;
-    line-height: 26px;
+	font-size: 16px;
+    line-height: 20px;
     text-shadow: 0 1px 0 rgba(8, 8, 8, 0.2);
 }
 
@@ -261,22 +259,29 @@ nav .show-menu span {
 
 .portfolio-box-text h3 {
 	margin: 0;
-	padding: 16px 20px 0 20px;
+	padding: 10px 16px 0 16px;
 	font-family: 'signikabold', sans-serif;
 	font-size: 16px;
 	color: #9ccbc0;
 	line-height: 20px;
-	text-transform: uppercase;
+}
+
+.portfolio-box-text h4 {
+	margin: 0;
+	padding: 0px 16px 0 16px;
+	font-family: 'signikaregular', sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+	line-height: 20px;
 }
 
 .portfolio-box-text p {
 	margin: 0;
-	padding: 3px 20px 15px 20px;
+	padding: 8px 20px 15px 16px;
 	font-family: 'signikasemibold', sans-serif;
 	font-size: 12px;
 	color: #fff;
-	line-height: 16px;
-	text-transform: uppercase;
+	line-height: 10px;
 }
 
 
@@ -296,7 +301,6 @@ nav .show-menu span {
 	font-family: 'signikabold', sans-serif;
 	font-size: 60px;
 	line-height: 64px;
-	text-transform: uppercase;
 	text-shadow: 0 2px 0 rgba(8, 8, 8, 0.2);
 	color: #ffffff;
 }
@@ -345,7 +349,6 @@ nav .show-menu span {
 	font-size: 20px;
 	color: #9ccbc0;
 	line-height: 24px;
-	text-transform: uppercase;
 }
 
 .development-box-text p {
@@ -376,7 +379,6 @@ nav .show-menu span {
 	font-family: 'signikabold', sans-serif;
 	font-size: 60px;
 	line-height: 64px;
-	text-transform: uppercase;
 	text-shadow: 0 2px 0 rgba(8, 8, 8, 0.2);
 	color: #80beb0;
 }
@@ -418,7 +420,6 @@ nav .show-menu span {
 	font-family: 'signikabold', sans-serif;
 	font-size: 60px;
 	line-height: 64px;
-	text-transform: uppercase;
 	text-shadow: 0 2px 0 rgba(8, 8, 8, 0.2);
 	color: #80beb0;
 }

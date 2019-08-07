@@ -377,6 +377,17 @@ h2 {
 	color: #ffffff;
 }
 
+.animation-box p.new-tab {
+	color: #222;
+	font-size: 12px;
+	line-height: 1.4;
+}
+
+.animation-box p a {
+	color: #FF6608;
+	font-size: 14px;
+}
+
 .animation-box p.small {
 	font-style: italic;
 	font-size: 14px;

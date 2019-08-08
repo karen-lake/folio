@@ -263,11 +263,11 @@ h2 {
 
 .portfolio-box-text h4 {
 	margin: 0;
-	padding: 0px 16px 0 16px;
+	padding: 5px 16px 0 16px;
 	font-family: 'signikaregular', sans-serif;
 	font-size: 14px;
 	color: #ffffff;
-	line-height: 20px;
+	line-height: 1.2;
 }
 
 .portfolio-box-text p {

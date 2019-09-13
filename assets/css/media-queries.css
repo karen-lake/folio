@@ -189,13 +189,13 @@
     	background-image: url(../img/icons/web-design@2x.png) !important; background-repeat: no-repeat !important; background-size: 24px 24px !important;
     }
     .custom-select-image.custom-select-image-image-design {
-    	background-image: url(../img/icons/image-design@2x.png) !important; background-repeat: no-repeat !important; background-size: 24px 24px !important;
+    	background-image: url( "../ico/@2x/graphic-designer-icon@x2.png") !important; background-repeat: no-repeat !important; background-size: 24px 24px !important;
     }
     .custom-select-image.custom-select-image-branding {
-    	background-image: url(../img/icons/branding@2x.png) !important; background-repeat: no-repeat !important; background-size: 24px 24px !important;
+    	background-image: url( "../ico/@2x/web-developer-icon@x2.png") !important; background-repeat: no-repeat !important; background-size: 24px 24px !important;
     }
     .custom-select-image.custom-select-image-dtp {
-    	background-image: url(../img/icons/dtp@2x.png) !important; background-repeat: no-repeat !important; background-size: 24px 24px !important;
+    	background-image: url( "../ico/@2x/ux-thinker-icon@x2.png") !important; background-repeat: no-repeat !important; background-size: 24px 24px !important;
     }
     .custom-select-image.custom-select-image-tv-campanies {
     	background-image: url(../img/icons/tv-campanies@2x.png) !important; background-repeat: no-repeat !important; background-size: 24px 24px !important;

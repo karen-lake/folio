@@ -280,6 +280,92 @@ h2 {
 }
 
 
+/***** UX Examples *****/
+
+.ux-container {
+    margin: 0 auto;
+    padding: 45px 0 55px 0;
+	background: #555;
+    color: #fff;
+	font-family: 'signikalight', sans-serif;
+	font-size: 20px;
+    line-height: 26px;
+}
+
+ .flex-parent {
+    display: flex;
+	flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+	
+}
+  .flex-child {
+	padding: 20px;
+	border: 2px solid #e7e7e7;
+	-moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+  } 
+  .flex-child img {
+    max-width: 100%;
+  }
+  .flex-child .text {
+    padding: 0 20px 20px;
+  }
+.ux p {
+	margin-top: 15px;
+	margin-bottom: 30px;
+    font-family: 'Georgia', serif;
+	font-size: 20px;
+	font-style: italic;
+    line-height: 30px;
+    text-shadow: 0 1px 0 rgba(8, 8, 8, 0.2);
+}
+
+.ux-box {
+	margin-top: 30px;
+	padding: 20px;
+	border: 2px solid #e7e7e7;
+	-moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.ux-box-text {
+	float: left;
+	text-align: left;
+	font-size: 16px;
+	line-height: 1.4;
+}
+
+
+.ux-box-text p.small {
+	font-style: italic;
+	font-size: 14px;
+	padding-top: 10px;
+	margin-top: 0;
+}
+
+.ux-box-text h3 {
+	margin: 0;
+	padding: 0;
+	font-family: 'signikasemibold', sans-serif;
+	font-size: 20px;
+	color: #9ccbc0;
+	line-height: 24px;
+}
+
+.ux-box-text p {
+	margin: 10px 0 0 0;
+}
+
+.ux-box-text .ux-box-social {
+	height: 38px;
+	margin-top: 16px;
+}
+
+
+
 /***** Development work *****/
 
 .development-container {
@@ -317,6 +403,12 @@ h2 {
 	text-align: left;
 	font-size: 16px;
 	line-height: 1.4;
+}
+
+.development-box-text.full {
+	float: none;
+	text-align: center;
+
 }
 
 .development-box-text p.small {
@@ -410,6 +502,15 @@ h2 {
 	font-size: 20px;
     color: #464c5c;
     line-height: 28px;
+}
+
+p.about {
+    padding: 0 20px 4px 20px;
+	font-family: 'signikasemi', sans-serif;
+	font-size: 20px;
+    color: #fff;
+    line-height: 28px;
+	font-weight: 400;
 }
 
 

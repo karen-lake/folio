@@ -36,7 +36,6 @@ nav {
 	left: 0;
 	width: 100%;
 	padding: 28px 0;
-	/*background: #80beb0;*/
 	background: #464B5C;
 	z-index: 99999;
 }
@@ -50,14 +49,13 @@ nav .nav-logo a {
 	height: 34px;
 	margin: 7px 0 0 0;
 	padding: 0;
-	/*background: url(../img/logo.png) left center no-repeat;*/
 	background: url(../img/karen-lake-text-orange.svg) left center no-repeat;
 	
 	text-indent: -9999px;
 }
 
 nav .show-menu {
-	/*display: none;*/
+	display: none;
 	margin-top: 15px;
 }
 

@@ -369,7 +369,7 @@ h2 {
 .development-container {
     margin: 0 auto;
     padding: 45px 0 55px 0;
-	background: #555;
+	background: #777;
     color: #fff;
 	font-family: 'signikalight', sans-serif;
 	font-size: 20px;
@@ -442,7 +442,7 @@ h2 {
 .animation-container {
     margin: 0 auto;
     padding: 35px 0 55px 0;
-	background: #777777;
+	background: #555;
 }
 
 .animation-box {

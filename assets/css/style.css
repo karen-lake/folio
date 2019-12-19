@@ -297,9 +297,10 @@ h2 {
 }
 
 h3.ux {
-	margin-top: -20px;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	margin-top: 30px;
+    padding-top: 0;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
    font-family: 'signikalight', sans-serif;
 	font-size: 18px;
 	color: #fff;

@@ -160,8 +160,7 @@
 	.top-content-text h1 { font-size: 30px; line-height: 36px; }
 	.top-content-text h1 span.top-content-text-big { font-size: 32px; line-height: 38px; }
 	h2 { font-size: 50px; line-height: 50px; }
-	
-}
+	h3.ux {margin-top: 30px; padding-top: 0; padding-bottom: 20px; margin-bottom: 40px;}
 
 
 

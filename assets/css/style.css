@@ -536,3 +536,13 @@ filters a.active,
     color: #FF6608;
 }
 
+/* Fancy box iframe size */
+
+.fancybox-slide--iframe .fancybox-content {
+    max-width  : 50%;
+    max-height : 50%;
+    margin: 0;
+	overflow: hidden;
+}
+
+

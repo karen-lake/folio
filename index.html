@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 
     <head>
@@ -12,7 +12,8 @@
 
           gtag('config', 'UA-153082145-1');
         </script>
-
+		
+		
 
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -31,6 +32,7 @@
         <link rel="stylesheet" href="assets/css/buttons.css">
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/media-queries.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -1442,16 +1444,13 @@
 					<div class="col-sm-4 animation-box">
 	                	<h3>Why I joined the Empire<br />(video)</h3>
 						
-						<video controls
-						src="assets/video/Short5.mp4"
-						poster="assets/video/screengrab.jpg"
-						width="100%" height="auto">
-						<p>Sorry, your browser doesn't support embedded videos.</p>
-							
-					</video>
-
 						
-<p>A short one minute video made in Premiere Pro. </p>
+						<a data-fancybox href="#EmpireVideo"><img src ="assets/img/clips/video-preview.jpg" /></a>
+
+						<video controls id="EmpireVideo" style="display:none; ">
+    					<source src="assets/video/Short5.mp4" type="video/mp4">Your browser doesn't support HTML5 video tag.</video>				
+						
+						<p>A short one minute video made in Premiere Pro. </p>
 						<p class="small"></p>
 			
 						
@@ -1462,14 +1461,11 @@
 	                 <div class="col-sm-4 animation-box">
 	                    <h3>Cross-docking process clip<br />(HTML5)</h3>
 						 
-						<a href="assets/canvas/Cross-Docking/cross_docking.html" target="_blank"><img src="assets/img/clips/cross-docking-preview.jpg" /></a>
-
-												 
-                       <p>This detailed animation explains to students what cross docking is.</p>
+						<a data-fancybox data-type="iframe" data-src="assets/canvas/Cross-Docking/cross_docking.html" href="javascript:;"><img src="assets/img/clips/cross-docking-preview.jpg" /></a>
+						 
+						 <p>This detailed animation explains to students what cross docking is.</p>
 						<p class="small">Deakin University</p>
-					
-					<p class="new-tab"><a href="assets/canvas/Cross-Docking/cross_docking.html" target="_blank">Open animation in new tab</a><span><img src="assets/img/new_tab.png" width="10" height="10" style="margin-left: 5px;"></span></p>
-					
+
 	                </div>
 					
 				<!--Clip START -->		
@@ -1477,12 +1473,11 @@
 	                <div class="col-sm-4 animation-box">
 						<h3>Payroll manual vs automatic<br />(HTML5)</h3>
 						
-						<a href="assets/canvas/Topic-3/topic_3.html" target="_blank"><img src="assets/img/clips/topic-3-preview.jpg" /></a>
+						<a data-fancybox data-type="iframe" data-src="assets/canvas/Topic-3/topic_3.html" href="javascript:;"><img src="assets/img/clips/topic-3-preview.jpg" /></a>
 						
 	                	<p>This animation shows a manual and automated payroll process.</p>
 						<p class="small">Deakin University</p>
 				
-						<p class="new-tab"><a href="assets/canvas/Topic-3/topic_3.html" target="_blank">Open animation in new tab</a><span><img src="assets/img/new_tab.png" width="10" height="10" style="margin-left: 5px;"></span></p>
 	                </div>
 					
 					<!--Clip START -->
@@ -1559,13 +1554,13 @@
         <script src="assets/js/jquery.magnific-popup.min.js"></script>
         <script src="assets/js/scripts.js"></script>
         <script src="assets/js/retina-1.1.0.min.js"></script>
-			  
+		<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+		
 
 		<!--[if lt IE 10]>
             <script src="assets/js/placeholder.js"></script>
         <![endif]-->
 
     </body>
-
 </html>
 

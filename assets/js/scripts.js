@@ -266,3 +266,13 @@ $(window).load(function(){
 	
 });
 
+/* Fancy box */
+
+$('[data-fancybox]').fancybox({
+	toolbar  : false,
+	smallBtn : true,
+	iframe : {
+	preload : true
+	}
+})
+

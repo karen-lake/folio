@@ -29,6 +29,7 @@
 	footer { padding: 60px 0 45px 0; text-align: center; }
 	footer .footer-left, footer .footer-right { float: none; width: auto; }
 	footer .footer-right { margin-top: 30px; }
+	.fancybox-slide--iframe .fancybox-content {max-width: 50%; max-height: 50%;}
 
 }
 
@@ -75,6 +76,7 @@
 	footer { padding: 60px 0 45px 0; text-align: center; }
 	footer .footer-left, footer .footer-right { float: none; width: auto; }
 	footer .footer-right { margin-top: 30px; }
+	.fancybox-slide--iframe .fancybox-content {max-width: 50%; max-height: 50%;}
 
 }
 
@@ -132,6 +134,7 @@
 	footer { padding: 60px 0 45px 0; text-align: center; }
 	footer .footer-left, footer .footer-right { float: none; width: auto; }
 	footer .footer-right { margin-top: 30px; }
+		.fancybox-slide--iframe .fancybox-content {max-width: 60%; max-height: 60%;}
 
 }
 
@@ -146,12 +149,14 @@
 
     .top-content-select .custom-select { width: 100%; }
     .top-content-select a.button-2 { margin: 30px 0 0 0; }
+	.fancybox-slide--iframe .fancybox-content {max-width: 70%; max-height: 70%;}
 
 }
 
 @media (max-width: 500px) {
 	
 	.top-content-video iframe { width: 95%; }
+	.fancybox-slide--iframe .fancybox-content {max-width: 80%; max-height: 80%;}
 	
 }
 
@@ -161,8 +166,7 @@
 	.top-content-text h1 span.top-content-text-big { font-size: 32px; line-height: 38px; }
 	h2 { font-size: 50px; line-height: 50px; }
 	h3.ux {margin-top: 30px; padding-top: 0; padding-bottom: 20px; margin-bottom: 40px;}
-	.fancybox-slide--iframe .fancybox-content {width  : 360px; height : 200px; max-width  : 100%; max-height : 100%;
-}
+	.fancybox-slide--iframe .fancybox-content {max-width: 100%; max-height: 100%;}
 }
 
 

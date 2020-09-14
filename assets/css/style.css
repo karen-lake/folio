@@ -189,20 +189,13 @@ h2 {
 
 /***** Portfolio *****/
 
-.portfolio-container {
+.portfolio-container,
+.digital-container,
+.print-container {
     margin: 0 auto;
     padding: 45px 0 70px 0;
     background: #777777;
     color: #fff;
-}
-
-.portfolio p {
-	margin-top: 10px;
-	padding: 0 120px;
-    font-family: 'signikalight', sans-serif;
-	font-size: 16px;
-    line-height: 20px;
-    text-shadow: 0 1px 0 rgba(8, 8, 8, 0.2);
 }
 
 .portfolio-filters {
@@ -273,9 +266,10 @@ h2 {
 	padding: 8px 20px 15px 16px;
 	font-family: 'signikasemibold', sans-serif;
 	font-size: 12px;
-	color: #fff;
+	color: #ffffff;
 	line-height: 10px;
 }
+
 
 
 /***** UX Examples *****/
@@ -283,17 +277,25 @@ h2 {
 .ux-container {
     margin: 0 auto;
     padding: 45px 0 70px 0;
-    background: #555;
+    background: #777;
     color: #fff;
 }
 
 .ux-container p {
-	padding: 0 20px 4px 20px;
+	padding: 0 20px 30px 20px;
 	font-family: 'signikasemi', sans-serif;
 	font-size: 20px;
     color: #fff;
     line-height: 28px;
 	font-weight: 400;
+}
+
+.ux-main {
+	font-family: 'signikabold', sans-serif;
+	font-size: 36px;
+	text-shadow: 0 2px 0 rgba(8, 8, 8, 0.2);
+	color: #fff;
+	margin: 0 0 20px 0;
 }
 
 h3.ux {
@@ -305,14 +307,6 @@ h3.ux {
 	font-size: 18px;
 	color: #fff;
 	align-self: center;
-}
-.ux p {
-	margin-top: 15px;
-	margin-bottom: 30px;
-    font-family: 'Georgia', serif;
-	font-size: 20px;
-	font-style: italic;
-    line-height: 30px;
 }
 
 .ux-box {
@@ -353,10 +347,10 @@ h3.ux {
 
 /***** Development work *****/
 
-.development-container {
+.web-dev-container {
     margin: 0 auto;
     padding: 45px 0 55px 0;
-	background: #777;
+	background: #555;
     color: #fff;
 	font-family: 'signikalight', sans-serif;
 	font-size: 20px;
@@ -424,19 +418,19 @@ h3.ux {
 
 
 
-/***** Animation module*****/
+/***** Motion module*****/
 
-.animation-container {
+.motion-container {
     margin: 0 auto;
     padding: 35px 0 55px 0;
 	background: #555;
 }
 
-.animation-box {
+.motion-box {
 	margin-top: 30px;
 }
 
-.animation-box h3 {
+.motion-box h3 {
 	padding: 0 0 4px 0;
 	font-family: 'signikasemibold', sans-serif;
 	font-size: 24px;
@@ -444,7 +438,7 @@ h3.ux {
     line-height: 28px;
 }
 
-.animation-box p {
+.motion-box p {
 	margin-top: 10px;
 	padding: 0 10px;
     font-family: 'signikalight', sans-serif;
@@ -454,25 +448,25 @@ h3.ux {
 	color: #ffffff;
 }
 
-.animation-box p.new-tab {
+.motion-box p.new-tab {
 	color: #222;
 	font-size: 12px;
 	line-height: 1.4;
 }
 
-.animation-box p a {
+.motion-box p a {
 	color: #FF6608;
 	font-size: 14px;
 }
 
-.animation-box p.small {
+.motion-box p.small {
 	font-style: italic;
 	font-size: 14px;
 	padding-top: 0;
 	margin-top: 0;
 }
 
-.animation-box .animation-box-icon {
+.motion-box .motion-box-icon {
     width: 220px;
     height: 146px;
     margin: 0 auto;

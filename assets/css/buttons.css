@@ -12,6 +12,11 @@
     	text-shadow: 0 1px 0 rgba(8, 8, 8, 0.2);
 }
 
+a.scroll-link.button-1.active {
+	background: #FF6608;
+	color: #fff;
+}
+
 /*
 .button-1 {
 	display: inline-block;
@@ -19,10 +24,10 @@
 	margin: 0;
 	padding: 19px 18px 0 18px;
 	font-family: 'signikaregular', sans-serif;
-    font-size: 18px;
-    color: #fff;
-    line-height: 18px;
-    text-shadow: 0 1px 0 rgba(8, 8, 8, 0.2);
+    	font-size: 18px;
+    	color: #fff;
+    	line-height: 18px;
+    	text-shadow: 0 1px 0 rgba(8, 8, 8, 0.2);
 }
 
 .button-1:hover, .button-1:focus, .button-1.active {
@@ -31,9 +36,9 @@
 	color: #FF6608;
 	text-shadow: none;
 	-moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    border-radius: 4px;
-    -moz-box-shadow: 0 2px 0 0 rgba(8, 8, 8, 0.08);
+    	-webkit-border-radius: 4px;
+    	border-radius: 4px;
+    	-moz-box-shadow: 0 2px 0 0 rgba(8, 8, 8, 0.08);
 	-webkit-box-shadow: 0 2px 0 0 rgba(8, 8, 8, 0.08);
 	box-shadow: 0 2px 0 0 rgba(8, 8, 8, 0.08);
 }

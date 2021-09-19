@@ -510,25 +510,35 @@ footer p {
 	color: #818590;
 }
 
-/***** Highlight colour *****/
-
-
+/***** Highlight colour (ORANGE) *****/
 
 .button-social-2.button-email-2 {
     background: #FF6608;
 }
 
 .top-content-text h1 span.top-content-text-big,
-.portfolio-box-text h3,
 h2,
-.button-1:hover,
-.button-1:focus,
-.button-1.active,
-filters a.active,
-.portfolio-filters a.active,
+.portfolio-box-text h3,
 .development-box-text h3 a {
     color: #FF6608;
 }
+
+/*.button-1:hover,
+.button-1:focus,
+.button-1.active,
+filters a.active,
+.portfolio-filters a.active {
+    color: #FF6608;
+}*/
+
+/* Fancy box default iframe size */
+
+.fancybox-slide--iframe .fancybox-content {
+    max-width  : 50%;
+    max-height : 50%;
+    margin: 0;
+}
+
 
 /* Fancy box default iframe size */
 

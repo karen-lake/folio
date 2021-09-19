@@ -14,7 +14,9 @@
     text-shadow: 0 1px 0 rgba(8, 8, 8, 0.2);
 }
 
-.button-1:hover, .button-1:focus, .button-1.active {
+.button-1:hover,
+.button-1:focus,
+.button-1.active {
 	outline: none;
 	background: #fff;
 	color: #FF6608;

@@ -19,8 +19,7 @@
 
 .scroll-link.button-1:link,
 .scroll-link.button-1:visited,
-.scroll-link.button-1:hover,
-.scroll-link.button-1:active, {
+.scroll-link.button-1:hover {
 	background: #FF6608;
 	color: #fff;
 }

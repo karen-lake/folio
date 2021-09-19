@@ -8,14 +8,10 @@
 	font-family: 'signikaregular', sans-serif;
     	font-size: 18px;
     	color: #fff;
+	background-color: #FF6608;
     	line-height: 18px;
     	text-shadow: 0 1px 0 rgba(8, 8, 8, 0.2);
 }
-
-a.scroll-link.button-1 {
-    background-color: red;
-}
-
 
 /*
 .scroll-link.button-1 {

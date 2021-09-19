@@ -17,8 +17,7 @@
 	color: #fff;
 }
 
-.scroll-link.button-1:hover,
-.scroll-link.button-1:focus {
+.scroll-link.button-1:hover {
 	background: #FF6608;
 	color: #fff;
 }

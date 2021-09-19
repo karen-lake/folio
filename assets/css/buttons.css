@@ -21,14 +21,8 @@
 .scroll-link.button-1:visited,
 .scroll-link.button-1:hover,
 .scroll-link.button-1:active {
-	background: #FF6608;
+	background: #red;
 	color: #fff;
-}
-
-a:link.button-1,
-.button-1 a:link {
-	background: #555555;
-	color: #000000;
 }
 
 

@@ -27,10 +27,9 @@
 	box-shadow: 0 2px 0 0 rgba(8, 8, 8, 0.08);
 }
 
-.button-1:hover,
-.button-1:focus {
+.button-1:hover {
 	outline: none;
-	background: #fff;
+	background: #FFFFFF;
 	color: #FF6608;
 	text-shadow: none;
 	-moz-border-radius: 4px;

@@ -9,17 +9,15 @@
 	padding: 19px 18px 0 18px;
 	font-family: 'signikaregular', sans-serif;
     font-size: 18px;
-    color: #fff;
+    color: #FFFFFF;
     line-height: 18px;
     text-shadow: 0 1px 0 rgba(8, 8, 8, 0.2);
 }
 
-/* .button-1:hover,
-.button-1:focus,
-.button-1.active {
+.button-1:hover {
 	outline: none;
-	background: #fff;
-	color: #FF6608;
+	background: #FF6608;
+    color: #FFFFFF;
 	text-shadow: none;
 	-moz-border-radius: 4px;
     -webkit-border-radius: 4px;
@@ -28,7 +26,6 @@
 	-webkit-box-shadow: 0 2px 0 0 rgba(8, 8, 8, 0.08);
 	box-shadow: 0 2px 0 0 rgba(8, 8, 8, 0.08);
 }
-*/
 
 
 /***** Button 2 *****/

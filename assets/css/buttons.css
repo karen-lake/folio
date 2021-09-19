@@ -13,7 +13,7 @@
 }
 
 
-.button-1.active {
+.button-1:active {
 	outline: none;
 	background: #FF6608;
 	color: #fff;

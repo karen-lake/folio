@@ -17,6 +17,12 @@
 	color: #fff;
 }
 
+.scroll-link.button-1:hover,
+.scroll-link.button-1:focus {
+	background: #FF6608;
+	color: #fff;
+}
+
 /*
 .button-1 {
 	display: inline-block;

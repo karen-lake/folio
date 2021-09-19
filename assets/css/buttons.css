@@ -12,20 +12,6 @@
     	text-shadow: 0 1px 0 rgba(8, 8, 8, 0.2);
 }
 
-/*.scroll-link.button-1.active {
-	background: #FF6608;
-	color: #fff;
-}*/
-
-.scroll-link.button-1:link,
-.scroll-link.button-1:visited,
-.scroll-link.button-1:hover,
-.scroll-link.button-1:active {
-	background: #red;
-	color: #fff;
-}
-
-
 
 /*
 .button-1 {

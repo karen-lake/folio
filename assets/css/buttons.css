@@ -25,8 +25,8 @@
 	color: #fff;
 }
 
-a:link.scroll-link.button-1,
-.scroll-link.button-1 a:link{
+a:link.button-1,
+.button-1 a:link {
 	background: #555555;
 	color: #000000;
 }
